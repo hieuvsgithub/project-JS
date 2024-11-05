@@ -1,0 +1,51 @@
+.section-news {
+  .container {
+    background-color: white;
+    .section-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      .left {
+        display: flex;
+        h2 {
+          a {
+            font-size: 1.6rem;
+            color: rgb(41, 41, 41);
+            padding: 10px 15px;
+          }
+        }
+        h3 {
+          display: inline-block;
+          font-size: 1.15rem;
+          font-weight: 700;
+          padding: 10px 15px;
+          i {
+            color: red;
+          }
+        }
+      }
+      .right {
+        a {
+          color: rgb(68, 68, 248);
+          font-size: 1.15rem;
+        }
+      }
+    }
+    .section-content {
+      padding: 20px;
+      .row {
+        .col-3 {
+          .item {
+            a {
+              img {
+                width: 100%;
+                border-radius: 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

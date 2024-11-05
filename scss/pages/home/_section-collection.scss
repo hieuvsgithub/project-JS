@@ -44,6 +44,7 @@
             a {
               font-size: 1.15rem;
               padding: 10px;
+              color: black;
             }
             .all {
               color: rgb(68, 68, 248);
@@ -146,6 +147,225 @@
         .name-category-product {
           h3 {
             font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mixin.pc-device {
+  .section-collection {
+    .container {
+      .section-heading {
+        .left {
+          h2 {
+            a {
+              font-size: 1.5rem;
+            }
+          }
+          h3 {
+            font-size: 1rem;
+          }
+        }
+        .right {
+          display: inline-flex;
+          flex-direction: column-reverse;
+          align-items: end;
+          ul {
+            gap: 3px;
+            li {
+              a {
+                font-size: 1rem;
+                padding: 6px;
+                color: black;
+              }
+              .all {
+                color: rgb(68, 68, 248);
+              }
+            }
+          }
+          a {
+            color: rgb(68, 68, 248);
+            font-size: 1rem;
+          }
+        }
+      }
+      .section-content {
+        .item {
+          .detail-product {
+            h3 {
+              a {
+                font-size: 1.2rem;
+              }
+            }
+            .information {
+              span {
+                font-size: 0.8rem;
+              }
+            }
+            .price-original {
+              font-size: 1rem;
+            }
+            .price-is-reduced {
+              font-size: 1.4rem;
+              .percent-discount {
+                font-size: 1rem;
+              }
+            }
+            .evaluate {
+              font-size: 0.7rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mixin.miniPc-device {
+  .section-collection {
+    .container {
+      .section-heading {
+        .left {
+          h2 {
+            a {
+              font-size: 1.3rem;
+            }
+            &::after {
+              display: none;
+            }
+          }
+          h3 {
+            display: none;
+          }
+        }
+        .right {
+          display: inline-flex;
+          flex-direction: column-reverse;
+          align-items: end;
+          ul {
+            gap: 3px;
+            li {
+              a {
+                font-size: 0.8rem;
+                padding: 6px;
+                color: black;
+              }
+              .all {
+                color: rgb(68, 68, 248);
+              }
+            }
+          }
+          a {
+            color: rgb(68, 68, 248);
+            font-size: 1rem;
+          }
+        }
+      }
+      .section-content {
+        .item {
+          min-width: 32%;
+
+          .detail-product {
+            gap: 8px;
+            h3 {
+              a {
+                font-size: 1rem;
+              }
+            }
+            .information {
+              span {
+                font-size: 0.8rem;
+              }
+            }
+            .price-original {
+              font-size: 0.8rem;
+            }
+            .price-is-reduced {
+              font-size: 1.2rem;
+              .percent-discount {
+                font-size: 0.8rem;
+              }
+            }
+            .evaluate {
+              font-size: 0.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mixin.mobile-device {
+  .section-collection {
+    .container {
+      .section-heading {
+        .left {
+          h2 {
+            a {
+              font-size: 1.3rem;
+            }
+            &::after {
+              display: none;
+            }
+          }
+          h3 {
+            display: none;
+          }
+        }
+        .right {
+          display: inline-flex;
+          flex-direction: column-reverse;
+          align-items: end;
+          ul {
+            gap: 3px;
+            li {
+              a {
+                font-size: 0.8rem;
+                padding: 6px;
+                color: black;
+              }
+              .all {
+                color: rgb(68, 68, 248);
+              }
+            }
+          }
+          a {
+            color: rgb(68, 68, 248);
+            font-size: 1rem;
+          }
+        }
+      }
+      .section-content {
+        .item {
+          min-width: 46%;
+
+          .detail-product {
+            gap: 8px;
+            h3 {
+              a {
+                font-size: 1rem;
+              }
+            }
+            .information {
+              span {
+                font-size: 0.8rem;
+              }
+            }
+            .price-original {
+              font-size: 0.8rem;
+            }
+            .price-is-reduced {
+              font-size: 1.2rem;
+              .percent-discount {
+                font-size: 0.8rem;
+              }
+            }
+            .evaluate {
+              font-size: 0.6rem;
+            }
           }
         }
       }

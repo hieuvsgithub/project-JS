@@ -1,0 +1,152 @@
+@use "../partials/fonts";
+@use "../partials/mixin";
+@use "../partials/variable";
+@use "../partials/base";
+
+.footer {
+  .wrapper-footer {
+    .container {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      .row {
+        font-size: 0.9rem;
+        .col-6 {
+          .row {
+            .col-4 {
+              .nav-introduce {
+                @include base.flex-column;
+                h4 {
+                  font-weight: 600;
+                }
+                ul {
+                  @include base.flex-column;
+                  gap: 10px;
+                }
+              }
+              .nav-policy {
+                @include base.flex-column;
+                h4 {
+                  font-weight: 600;
+                }
+                ul {
+                  @include base.flex-column;
+                  gap: 10px;
+                }
+              }
+              .nav-info {
+                @include base.flex-column;
+                h4 {
+                  font-weight: 600;
+                }
+                ul {
+                  @include base.flex-column;
+                  gap: 10px;
+                }
+              }
+            }
+            .col-5 {
+              .hotline-support {
+                @include base.flex-column;
+                h4 {
+                  font-weight: 600;
+                  span {
+                    font-size: 0.8rem;
+                    font-weight: 400;
+                  }
+                }
+                ul {
+                  @include base.flex-column;
+                  gap: 10px;
+                  li {
+                    span {
+                      font-weight: 600;
+                      color: rgb(98, 98, 255);
+                    }
+                  }
+                }
+              }
+            }
+            .col-7 {
+              .row {
+                .col-12 {
+                  .item {
+                    h4 {
+                      font-weight: 600;
+                      margin-bottom: 10px;
+                    }
+                    ul {
+                      li {
+                        display: inline-block;
+                        width: 32%;
+                        img {
+                          width: 100%;
+                        }
+                      }
+                    }
+                  }
+                  .payment-method {
+                    h4 {
+                      font-weight: 600;
+                      margin-bottom: 10px;
+                    }
+                    ul {
+                      li {
+                        display: inline-block;
+                        width: 32%;
+                        img {
+                          width: 100%;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .row-bottom {
+        border-top: 1px solid black;
+        .col-12 {
+          .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .notarization {
+              display: inline-block;
+              width: 12%;
+              img {
+                width: 100%;
+              }
+            }
+            .external-links {
+              display: flex;
+              gap: 20px;
+              h4 {
+                font-weight: 600;
+              }
+              ul {
+                display: flex;
+                gap: 10px;
+                li {
+                  a {
+                    .fa-youtube {
+                      color: red;
+                    }
+                    .fa-facebook {
+                      color: rgb(76, 76, 249);
+                    }
+                  }
+                  .fa-twitter {
+                    color: rgb(76, 76, 249);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
