@@ -1,0 +1,154 @@
+@use "../../partials/mixin";
+@use "../../partials/fonts";
+@use "../../partials/base";
+
+.section-collection {
+  .container {
+    background-color: white;
+    .section-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      .left {
+        display: flex;
+        h2 {
+          &::after {
+            display: inline-block;
+            content: "";
+            width: 2px;
+            height: 50%;
+            background-color: black;
+          }
+          a {
+            font-size: 1.6rem;
+            color: rgb(41, 41, 41);
+            padding: 10px 15px;
+          }
+        }
+        h3 {
+          display: inline-block;
+          font-size: 1.15rem;
+          font-weight: 700;
+          padding: 10px 15px;
+          i {
+            color: red;
+          }
+        }
+      }
+      .right {
+        ul {
+          display: flex;
+          gap: 5px;
+          li {
+            a {
+              font-size: 1.15rem;
+              padding: 10px;
+            }
+            .all {
+              color: rgb(68, 68, 248);
+            }
+          }
+        }
+        a {
+          color: rgb(68, 68, 248);
+          font-size: 1.15rem;
+        }
+      }
+    }
+    .section-content {
+      padding: 10px 10px 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      overflow: auto;
+      scrollbar-width: none;
+      .item {
+        min-width: 24%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: 0.8px solid rgb(199, 199, 199);
+        padding: 15px 10px;
+        box-shadow: 2px 2px 6px 4px rgb(125, 125, 125);
+        .img-product {
+          padding: 10px;
+          img {
+            width: 100%;
+          }
+        }
+        .detail-product {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 10px;
+          h3 {
+            a {
+              font-size: 1.4rem;
+            }
+          }
+          .information {
+            width: 100%;
+            background-color: rgb(199, 199, 199);
+            padding: 8px;
+            font-size: 0.88rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px 10%;
+            span {
+            }
+          }
+          .price-original {
+            text-decoration: line-through;
+            font-size: 1.2rem;
+          }
+          .price-is-reduced {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: red;
+            .percent-discount {
+              border: 1px solid red;
+              border-radius: 3px;
+              font-size: 1.2rem;
+              padding: 5px;
+              font-weight: 600;
+            }
+          }
+          .evaluate {
+            font-size: 0.9rem;
+            color: rgb(255, 213, 0);
+            .number-of-reviews {
+              color: black;
+            }
+          }
+        }
+      }
+      .item-product {
+        min-width: 150px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        padding: 15px 10px;
+        .img-product {
+          padding: 10px;
+          img {
+            width: 90%;
+          }
+        }
+        .name-category-product {
+          h3 {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}

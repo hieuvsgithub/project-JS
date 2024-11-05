@@ -1,0 +1,107 @@
+// Import global
+@use "partials/fonts";
+@use "partials/reset";
+@use "partials/base";
+@use "partials/mixin";
+
+// Import layout
+@use "components/header";
+@use "components/footer";
+@use "components/sub-header";
+
+// Import pages
+@use "pages/home/section-slide";
+@use "pages/home/section-banner-1";
+@use "pages/home/section-collection";
+
+html {
+  font-size: 62, 5%;
+}
+body {
+  font-size: 1.6rem;
+  background-color: rgb(230, 230, 230);
+}
+
+.main {
+  margin: 20px;
+  .section {
+    margin: 10px auto;
+  }
+  .section-slide {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 5px 5px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "sidebar slides slides hot-sale-1"
+        "sidebar slides slides hot-sale-2"
+        "sidebar hot-sale-5 hot-sale-4 hot-sale-3";
+    }
+
+    .side-bar {
+      grid-area: sidebar;
+    }
+
+    .slides {
+      grid-area: slides;
+    }
+
+    .hot-sale-1 {
+      grid-area: hot-sale-1;
+    }
+
+    .hot-sale-2 {
+      grid-area: hot-sale-2;
+    }
+
+    .hot-sale-3 {
+      grid-area: hot-sale-3;
+    }
+
+    .hot-sale-4 {
+      grid-area: hot-sale-4;
+    }
+
+    .hot-sale-5 {
+      grid-area: hot-sale-5;
+    }
+  }
+}
+
+@include mixin.pc-device {
+  .main {
+    .section-slide {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}
+
+@include mixin.tablet-device {
+  .main {
+    .section-slide {
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 5px 5px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          " slides slides slides "
+          " slides slides slides "
+          " hot-sales hot-sales hot-sales";
+      }
+
+      .slides {
+        grid-area: slides;
+      }
+
+      .hot-sales {
+        grid-area: hot-sales;
+      }
+    }
+  }
+}

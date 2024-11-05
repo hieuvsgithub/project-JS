@@ -1,0 +1,151 @@
+@use "../../partials/mixin";
+
+.section-slide {
+  .container {
+    .side-bar {
+      background-color: white;
+      margin-right: 10px;
+      border-radius: 6px;
+      ul {
+        display: flex;
+        flex-direction: column;
+        li {
+          padding: 5px 10px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          a {
+            font-size: 1rem;
+            padding: 8px 10px;
+          }
+          span {
+            font-size: 0.9rem;
+            font-weight: 800;
+          }
+          &:hover {
+            background-color: red;
+            color: white;
+            a {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+    .slides {
+      position: relative;
+      .carousel-inner {
+        .wrapper-slide {
+          .slide {
+            img {
+              width: 100%;
+              height: auto;
+              border-radius: 6px;
+            }
+          }
+        }
+        .moves {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 10px;
+          position: absolute;
+          bottom: 20px;
+          left: 25%;
+          width: 50%;
+          .item-move {
+            width: 20%;
+            height: 6px;
+            border: 0.6px solid red;
+            border-radius: 99px;
+            background-color: white;
+          }
+        }
+      }
+      .control {
+        width: 100%;
+        position: absolute;
+        top: 46%;
+        display: flex;
+        justify-content: space-between;
+        .prev {
+          margin-left: 20px;
+        }
+        .next {
+          margin-right: 20px;
+        }
+      }
+    }
+    .hot-sale {
+      a {
+        display: inline-block;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .hot-sales {
+      display: none;
+    }
+  }
+}
+
+@include mixin.pc-device {
+  .section-slide {
+    .container {
+      .side-bar {
+        display: none;
+      }
+    }
+  }
+}
+
+@include mixin.tablet-device {
+  .section-slide {
+    .container {
+      .hot-sale {
+        display: none;
+      }
+      .hot-sales {
+        display: flex;
+        overflow: auto;
+        scrollbar-width: none;
+        .hot-sale {
+          display: inline-block;
+          min-width: 250px;
+          a {
+            width: 100%;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mixin.mobile-device {
+  .section-slide {
+    .container {
+      .hot-sale {
+        display: none;
+      }
+      .hot-sales {
+        display: flex;
+        overflow: auto;
+        scrollbar-width: none;
+        .hot-sale {
+          display: inline-block;
+          min-width: 130px;
+          a {
+            width: 100%;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

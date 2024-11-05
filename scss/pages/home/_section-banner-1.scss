@@ -1,0 +1,40 @@
+.section-banner {
+  .container {
+    .row {
+      .col-6 {
+        .item {
+          a {
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+      .col-8 {
+        .item {
+          a {
+            img {
+              width: 100%;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+      .col-4 {
+        .row {
+          .col-12 {
+            .item {
+              margin-bottom: 10px;
+              a {
+                img {
+                  width: 100%;
+                  border-radius: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

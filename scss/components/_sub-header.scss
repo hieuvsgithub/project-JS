@@ -1,0 +1,83 @@
+@use "../partials/fonts";
+@use "../partials/mixin";
+@use "../partials/variable";
+@use "../partials/base";
+
+.sub-header {
+  background-color: white;
+  padding-top: 80px;
+  .wrapper-sub-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 2px;
+      li {
+        display: flex;
+
+        align-items: center;
+        a {
+          display: inline-block;
+          font-size: 1rem;
+          padding: 15px 20px;
+          text-align: center;
+          &:hover {
+            color: red;
+          }
+        }
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 2px;
+          height: 70%;
+          background-color: rgba(4, 4, 4, 0.484);
+        }
+        &:nth-child(1)::before {
+          content: "";
+          width: 0;
+        }
+      }
+    }
+  }
+}
+
+@include mixin.pc-device {
+  .sub-header {
+    .wrapper-sub-header {
+      ul {
+        li {
+          a {
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mixin.miniPc-device {
+  .sub-header {
+    padding-top: 60px;
+  }
+}
+
+@include mixin.tablet-device {
+  .sub-header {
+    padding-top: 50px;
+    .wrapper-sub-header {
+      width: 100%;
+      overflow: auto;
+      scrollbar-width: none;
+      ul {
+        li {
+          a {
+            padding: 5px 10px;
+            min-width: 150px;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}

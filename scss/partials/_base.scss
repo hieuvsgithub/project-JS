@@ -1,0 +1,6 @@
+// File chứa các class thường sử dụng trong css
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

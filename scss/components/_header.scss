@@ -1,0 +1,255 @@
+@use "../partials/fonts";
+@use "../partials/mixin";
+@use "../partials/variable";
+@use "../partials/base";
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: variable.$backgroundColorHeader;
+  z-index: 1;
+  .wrapper-header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    gap: 20px;
+    .logo {
+      a {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        img {
+          height: 80%;
+          border-radius: 9px;
+        }
+      }
+    }
+    .wrapper-bar {
+      display: none;
+    }
+    .search {
+      display: flex;
+      align-items: center;
+      position: relative;
+      .search-input {
+        width: 400px;
+        height: 45px;
+        font-size: 1.1rem;
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-radius: 99px;
+      }
+      .icon-search {
+        position: absolute;
+        right: 10px;
+        font-size: 1.2rem;
+      }
+    }
+    .nav {
+      @include base.flex-center;
+      ul {
+        display: flex;
+        gap: 10px;
+        li {
+          padding: 5px;
+          a {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: white;
+          }
+          .nav-cart-shopping {
+            position: relative;
+            .single-number {
+              padding: 1px 3px 1px 4px;
+              background-color: yellow;
+              position: absolute;
+              left: 15px;
+              top: -6px;
+              font-size: 0.8rem;
+              color: black;
+              border-radius: 50%;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+    .box-btn-login {
+      display: flex;
+      align-items: center;
+      color: white;
+      .btn-login {
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        gap: 6px;
+        font-weight: 600;
+      }
+      ul {
+        display: none;
+      }
+    }
+    // .coaing {
+    //   position: fixed;
+    //   inset: 0;
+    //   z-index: 1;
+    //   background-color: rgba(0, 0, 0, 0.418);
+    //   opacity: 0;
+    //   visibility: hidden;
+    //   transition: 0.4s ease;
+    //   transition-property: opacity, visibility;
+    // }
+  }
+}
+
+// 1199
+@include mixin.pc-device {
+  .header {
+    .wrapper-header {
+      padding: 0 10px;
+      .wrapper-bar {
+        display: flex;
+        align-items: center;
+        color: white;
+        margin-left: 30px;
+        gap: 30px;
+        a {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          img {
+            height: 80%;
+            border-radius: 9px;
+          }
+        }
+      }
+      .logo {
+        display: none;
+      }
+      .search {
+        .search-input {
+          width: 32rem;
+        }
+      }
+      .nav {
+        ul {
+          gap: 20px;
+          li {
+            a {
+              font-size: 1.6rem;
+              .txt-nav {
+                display: none;
+              }
+            }
+            .nav-cart-shopping {
+              position: relative;
+              .single-number {
+                position: absolute;
+                left: 23px;
+                top: -5px;
+              }
+            }
+          }
+        }
+      }
+      .box-btn-login {
+        display: flex;
+        align-items: center;
+        color: white;
+        margin-right: 20px;
+        .btn-login {
+          i {
+            font-size: 1.5rem;
+          }
+          .txt-nav {
+            display: none;
+          }
+        }
+        ul {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+// 991
+@include mixin.miniPc-device {
+  .header {
+    .wrapper-header {
+      height: 60px;
+      .search {
+        width: 30rem;
+      }
+      .search {
+        .search-input {
+          height: 40px;
+        }
+      }
+      .nav {
+        display: none;
+      }
+    }
+  }
+}
+
+// 767
+@include mixin.tablet-device {
+  .header {
+    .wrapper-header {
+      height: 50px;
+      .search {
+        width: 20rem;
+      }
+      .search {
+        .search-input {
+          height: 35px;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+//575
+@include mixin.mobile-device {
+  .header {
+    .wrapper-header {
+      height: 50px;
+      gap: 5px;
+      .wrapper-bar {
+        margin-left: 0;
+        gap: 10px;
+        .btn-bar {
+          i {
+            font-size: 1rem;
+          }
+        }
+      }
+      .search {
+        width: 12rem;
+      }
+      .search {
+        .search-input {
+          height: 25px;
+          font-size: 0.8rem;
+        }
+        .icon-search {
+          font-size: 1rem;
+        }
+      }
+
+      .box-btn-login {
+        margin-right: 10px;
+        .btn-login {
+          i {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
