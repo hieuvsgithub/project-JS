@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="../css/gird.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper-header">
+        <input type="checkbox" id="btn-navbar" class="check-bar" hidden />
+        <div class="wrapper-bar">
+          <label for="btn-navbar" class="btn-bar">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <a href="#">
+            <img
+              src="../imgs/pngtree-initial-letter-h-logo-png-image_5502065.jpg"
+              alt="Ảnh logo"
+            />
+          </a>
+        </div>
+        <!-- wrapper-bar -->
+        <div class="logo">
+          <a href="#">
+            <img
+              src="../imgs/pngtree-initial-letter-h-logo-png-image_5502065.jpg"
+              alt="Ảnh logo"
+            />
+          </a>
+        </div>
+        <!-- logo -->
+        <div class="search">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Bạn cần tim gì ? "
+          />
+          <div class="icon icon-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <!-- search -->
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-phone"></i>
+                <span class="txt-nav"> Hotline</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="txt-nav"> Hệ thống</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-clipboard"></i>
+                <span class="txt-nav"> Tra cứu</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-cart-shopping">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="txt-nav"> Giỏ hàng</span>
+                <span class="single-number">3</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- nav -->
+        <div class="box-btn-login">
+          <label for="btn-login" class="btn-login">
+            <i class="fa-solid fa-user"></i>
+            <span class="txt-nav">Đăng nhập</span>
+          </label>
+          <input type="checkbox" id="btn-login" hidden />
+          <ul>
+            <li><a href="#">Giỏ hàng</a></li>
+            <li><a href="#">Tra cứu</a></li>
+            <li><a href="#">Cài đặt</a></li>
+            <li><a href="#">Đăng nhập</a></li>
+            <li><a href="#">Đăng kí</a></li>
+          </ul>
+        </div>
+        <!-- <label for="btn-navbar" class="coaing"></label> -->
+      </div>
+      <!-- wrapper-header -->
+    </header>
+    <!-- header -->
+    <div class="sub-header">
+      <div class="wrapper-sub-header">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-solid fa-tag"></i> Săn voucher HPC</a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-regular fa-newspaper"></i> Tin công nghệ
+            </a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-toolbox"></i> Dịch vụ sửa chữa</a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-regular fa-credit-card"></i> Dịch vụ kĩ thuật tại nhà
+            </a>
+          </li>
+          <li>
+            <a href="#"> <i class="fa-solid fa-coins"></i> Thu cũ đổi mới </a>
+          </li>
+          <li>
+            <a href="#"> <i class="fa-solid fa-shield"></i> Tra cứu bảo hành</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- sub-header -->
+    <main class="main">
+      <div class="container">
+        <div class="detail-collection">
+          <div class="header-detail-collection">
+            <a href="#">
+              <img
+                src="../imgs/header-detail-colloction/vivobook_banner_web_collection_1920x420_2048x2048.webp"
+                alt=""
+              />
+            </a>
+          </div>
+          <!-- header-detail-collection -->
+          <div class="collection-wrap">
+            <div class="filter">
+              <div class="left">
+                <div class="filter-all">
+                  <input
+                    type="checkbox"
+                    class="check-filter-all"
+                    id="check-filter-all"
+                    hidden
+                  />
+                  <label for="check-filter-all" class="title-filter-all">
+                    <i class="fa-solid fa-filter"> </i> Bộ lọc:
+                  </label>
+                  <div class="box-filter-all">
+                    <label for="check-filter-all" class="btn-filter-all">
+                      x
+                    </label>
+                    <div class="wrapper-filter-item">
+                      <div class="filter-item filter-price">
+                        <select name="price" id="price">
+                          <option value="0">Giá</option>
+                          <option value="1">Cao >> Thấp</option>
+                          <option value="2">Thấp >> Cao</option>
+                        </select>
+                      </div>
+                      <!-- filter-price  -->
+                      <div class="filter-item filter-company">
+                        <select name="company" id="company">
+                          <option value="0">Hãng</option>
+                          <option value="1">ACER</option>
+                          <option value="2">ASUS</option>
+                          <option value="3">AVITA</option>
+                          <option value="4">DELL</option>
+                          <option value="5">LENOVO</option>
+                          <option value="6">LG</option>
+                        </select>
+                      </div>
+                      <!-- filter-company  -->
+                      <div class="filter-item filter-cpu">
+                        <select name="cpu" id="cpu">
+                          <option value="0">CPU</option>
+                          <option value="1">Intel Core i5</option>
+                          <option value="2">Intel Core i7</option>
+                          <option value="3">Ultra 5-125H</option>
+                        </select>
+                      </div>
+                      <!-- filter-cpu  -->
+                      <div class="filter-item filter-ram">
+                        <select name="cpu" id="cpu">
+                          <option value="0">RAM</option>
+                          <option value="1">16 GB</option>
+                          <option value="2">8 GB</option>
+                        </select>
+                      </div>
+                      <!-- filter-ram  -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- left -->
+              <div class="right">
+                <div class="filter-price">
+                  <select name="price" id="price">
+                    <option value="0">Giá</option>
+                    <option value="1">Cao >> Thấp</option>
+                    <option value="2">Thấp >> Cao</option>
+                  </select>
+                </div>
+                <!-- filter-price  -->
+                <div class="filter-company">
+                  <select name="company" id="company">
+                    <option value="0">Hãng</option>
+                    <option value="1">ACER</option>
+                    <option value="2">ASUS</option>
+                    <option value="3">AVITA</option>
+                    <option value="4">DELL</option>
+                    <option value="5">LENOVO</option>
+                    <option value="6">LG</option>
+                  </select>
+                </div>
+                <!-- filter-company  -->
+                <div class="filter-cpu">
+                  <select name="cpu" id="cpu">
+                    <option value="0">CPU</option>
+                    <option value="1">Intel Core i5</option>
+                    <option value="2">Intel Core i7</option>
+                    <option value="3">Ultra 5-125H</option>
+                  </select>
+                </div>
+                <!-- filter-cpu  -->
+                <div class="filter-ram">
+                  <select name="cpu" id="cpu">
+                    <option value="0">RAM</option>
+                    <option value="1">16 GB</option>
+                    <option value="2">8 GB</option>
+                  </select>
+                </div>
+                <!-- filter-ram  -->
+              </div>
+              <!-- right -->
+            </div>
+            <!-- filter -->
+            <div class="collection">
+              <div class="row">
+                <div class="col-3 col-md-4 col-sm-6">
+                  <div class="item">
+                    <div class="img-product">
+                      <a href="#">
+                        <img
+                          src="../imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp"
+                          alt="Ảnh sản phẩm bán chạy"
+                        />
+                      </a>
+                    </div>
+                    <div class="detail-product">
+                      <h3>
+                        <a href="#"> PC GVN x ASUS Back to Future </a>
+                      </h3>
+                      <div class="information">
+                        <span title="Bộ sử lý">
+                          <i class="fa-solid fa-microchip"></i> i7-14700K
+                        </span>
+                        <span title="card">
+                          <i class="fa-solid fa-display"></i> RTX-4070
+                        </span>
+                        <span title="Chipset intel">
+                          <i class="fa-solid fa-chess-board"></i> B762
+                        </span>
+                        <span title="RAM">
+                          <i class="fa-solid fa-memory"></i> 16GB
+                        </span>
+                        <span title="ROM">
+                          <i class="fa-solid fa-chess-board"> </i> 500GB
+                        </span>
+                      </div>
+                      <div class="price-original">20.000.000đ</div>
+                      <div class="price-is-reduced">
+                        18.000.000đ <span class="percent-discount">10%</span>
+                      </div>
+                      <div class="evaluate">
+                        4.8 <i class="fa-solid fa-star"></i>
+                        <span class="number-of-reviews">
+                          (<span class="quantity">5</span> đánh giá )
+                        </span>
+                      </div>
+                    </div>
+                    <!-- detail-product -->
+                  </div>
+                  <!-- item -->
+                </div>
+                <!-- col-3 -->
+                <div class="col-3 col-md-4 col-sm-6">
+                  <div class="item">
+                    <div class="img-product">
+                      <a href="#">
+                        <img
+                          src="../imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp"
+                          alt="Ảnh sản phẩm bán chạy"
+                        />
+                      </a>
+                    </div>
+                    <div class="detail-product">
+                      <h3>
+                        <a href="#"> PC GVN x ASUS Back to Future </a>
+                      </h3>
+                      <div class="information">
+                        <span title="Bộ sử lý">
+                          <i class="fa-solid fa-microchip"></i> i7-14700K
+                        </span>
+                        <span title="card">
+                          <i class="fa-solid fa-display"></i> RTX-4070
+                        </span>
+                        <span title="Chipset intel">
+                          <i class="fa-solid fa-chess-board"></i> B762
+                        </span>
+                        <span title="RAM">
+                          <i class="fa-solid fa-memory"></i> 16GB
+                        </span>
+                        <span title="ROM">
+                          <i class="fa-solid fa-chess-board"> </i> 500GB
+                        </span>
+                      </div>
+                      <div class="price-original">20.000.000đ</div>
+                      <div class="price-is-reduced">
+                        18.000.000đ <span class="percent-discount">10%</span>
+                      </div>
+                      <div class="evaluate">
+                        4.8 <i class="fa-solid fa-star"></i>
+                        <span class="number-of-reviews">
+                          (<span class="quantity">5</span> đánh giá )
+                        </span>
+                      </div>
+                    </div>
+                    <!-- detail-product -->
+                  </div>
+                  <!-- item -->
+                </div>
+                <!-- col-3 -->
+                <div class="col-3 col-md-4 col-sm-6">
+                  <div class="item">
+                    <div class="img-product">
+                      <a href="#">
+                        <img
+                          src="../imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp"
+                          alt="Ảnh sản phẩm bán chạy"
+                        />
+                      </a>
+                    </div>
+                    <div class="detail-product">
+                      <h3>
+                        <a href="#"> PC GVN x ASUS Back to Future </a>
+                      </h3>
+                      <div class="information">
+                        <span title="Bộ sử lý">
+                          <i class="fa-solid fa-microchip"></i> i7-14700K
+                        </span>
+                        <span title="card">
+                          <i class="fa-solid fa-display"></i> RTX-4070
+                        </span>
+                        <span title="Chipset intel">
+                          <i class="fa-solid fa-chess-board"></i> B762
+                        </span>
+                        <span title="RAM">
+                          <i class="fa-solid fa-memory"></i> 16GB
+                        </span>
+                        <span title="ROM">
+                          <i class="fa-solid fa-chess-board"> </i> 500GB
+                        </span>
+                      </div>
+                      <div class="price-original">20.000.000đ</div>
+                      <div class="price-is-reduced">
+                        18.000.000đ <span class="percent-discount">10%</span>
+                      </div>
+                      <div class="evaluate">
+                        4.8 <i class="fa-solid fa-star"></i>
+                        <span class="number-of-reviews">
+                          (<span class="quantity">5</span> đánh giá )
+                        </span>
+                      </div>
+                    </div>
+                    <!-- detail-product -->
+                  </div>
+                  <!-- item -->
+                </div>
+                <!-- col-3 -->
+                <div class="col-3 col-md-4 col-sm-6">
+                  <div class="item">
+                    <div class="img-product">
+                      <a href="#">
+                        <img
+                          src="../imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp"
+                          alt="Ảnh sản phẩm bán chạy"
+                        />
+                      </a>
+                    </div>
+                    <div class="detail-product">
+                      <h3>
+                        <a href="#"> PC GVN x ASUS Back to Future </a>
+                      </h3>
+                      <div class="information">
+                        <span title="Bộ sử lý">
+                          <i class="fa-solid fa-microchip"></i> i7-14700K
+                        </span>
+                        <span title="card">
+                          <i class="fa-solid fa-display"></i> RTX-4070
+                        </span>
+                        <span title="Chipset intel">
+                          <i class="fa-solid fa-chess-board"></i> B762
+                        </span>
+                        <span title="RAM">
+                          <i class="fa-solid fa-memory"></i> 16GB
+                        </span>
+                        <span title="ROM">
+                          <i class="fa-solid fa-chess-board"> </i> 500GB
+                        </span>
+                      </div>
+                      <div class="price-original">20.000.000đ</div>
+                      <div class="price-is-reduced">
+                        18.000.000đ <span class="percent-discount">10%</span>
+                      </div>
+                      <div class="evaluate">
+                        4.8 <i class="fa-solid fa-star"></i>
+                        <span class="number-of-reviews">
+                          (<span class="quantity">5</span> đánh giá )
+                        </span>
+                      </div>
+                    </div>
+                    <!-- detail-product -->
+                  </div>
+                  <!-- item -->
+                </div>
+                <!-- col-3 -->
+                <div class="col-3 col-md-4 col-sm-6">
+                  <div class="item">
+                    <div class="img-product">
+                      <a href="#">
+                        <img
+                          src="../imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp"
+                          alt="Ảnh sản phẩm bán chạy"
+                        />
+                      </a>
+                    </div>
+                    <div class="detail-product">
+                      <h3>
+                        <a href="#"> PC GVN x ASUS Back to Future </a>
+                      </h3>
+                      <div class="information">
+                        <span title="Bộ sử lý">
+                          <i class="fa-solid fa-microchip"></i> i7-14700K
+                        </span>
+                        <span title="card">
+                          <i class="fa-solid fa-display"></i> RTX-4070
+                        </span>
+                        <span title="Chipset intel">
+                          <i class="fa-solid fa-chess-board"></i> B762
+                        </span>
+                        <span title="RAM">
+                          <i class="fa-solid fa-memory"></i> 16GB
+                        </span>
+                        <span title="ROM">
+                          <i class="fa-solid fa-chess-board"> </i> 500GB
+                        </span>
+                      </div>
+                      <div class="price-original">20.000.000đ</div>
+                      <div class="price-is-reduced">
+                        18.000.000đ <span class="percent-discount">10%</span>
+                      </div>
+                      <div class="evaluate">
+                        4.8 <i class="fa-solid fa-star"></i>
+                        <span class="number-of-reviews">
+                          (<span class="quantity">5</span> đánh giá )
+                        </span>
+                      </div>
+                    </div>
+                    <!-- detail-product -->
+                  </div>
+                  <!-- item -->
+                </div>
+                <!-- col-3 -->
+                <div class="col-3 col-md-4 col-sm-6">
+                  <div class="item">
+                    <div class="img-product">
+                      <a href="#">
+                        <img
+                          src="../imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp"
+                          alt="Ảnh sản phẩm bán chạy"
+                        />
+                      </a>
+                    </div>
+                    <div class="detail-product">
+                      <h3>
+                        <a href="#"> PC GVN x ASUS Back to Future </a>
+                      </h3>
+                      <div class="information">
+                        <span title="Bộ sử lý">
+                          <i class="fa-solid fa-microchip"></i> i7-14700K
+                        </span>
+                        <span title="card">
+                          <i class="fa-solid fa-display"></i> RTX-4070
+                        </span>
+                        <span title="Chipset intel">
+                          <i class="fa-solid fa-chess-board"></i> B762
+                        </span>
+                        <span title="RAM">
+                          <i class="fa-solid fa-memory"></i> 16GB
+                        </span>
+                        <span title="ROM">
+                          <i class="fa-solid fa-chess-board"> </i> 500GB
+                        </span>
+                      </div>
+                      <div class="price-original">20.000.000đ</div>
+                      <div class="price-is-reduced">
+                        18.000.000đ <span class="percent-discount">10%</span>
+                      </div>
+                      <div class="evaluate">
+                        4.8 <i class="fa-solid fa-star"></i>
+                        <span class="number-of-reviews">
+                          (<span class="quantity">5</span> đánh giá )
+                        </span>
+                      </div>
+                    </div>
+                    <!-- detail-product -->
+                  </div>
+                  <!-- item -->
+                </div>
+                <!-- col-3 -->
+                <div class="col-3 col-md-4 col-sm-6">
+                  <div class="item">
+                    <div class="img-product">
+                      <a href="#">
+                        <img
+                          src="../imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp"
+                          alt="Ảnh sản phẩm bán chạy"
+                        />
+                      </a>
+                    </div>
+                    <div class="detail-product">
+                      <h3>
+                        <a href="#"> PC GVN x ASUS Back to Future </a>
+                      </h3>
+                      <div class="information">
+                        <span title="Bộ sử lý">
+                          <i class="fa-solid fa-microchip"></i> i7-14700K
+                        </span>
+                        <span title="card">
+                          <i class="fa-solid fa-display"></i> RTX-4070
+                        </span>
+                        <span title="Chipset intel">
+                          <i class="fa-solid fa-chess-board"></i> B762
+                        </span>
+                        <span title="RAM">
+                          <i class="fa-solid fa-memory"></i> 16GB
+                        </span>
+                        <span title="ROM">
+                          <i class="fa-solid fa-chess-board"> </i> 500GB
+                        </span>
+                      </div>
+                      <div class="price-original">20.000.000đ</div>
+                      <div class="price-is-reduced">
+                        18.000.000đ <span class="percent-discount">10%</span>
+                      </div>
+                      <div class="evaluate">
+                        4.8 <i class="fa-solid fa-star"></i>
+                        <span class="number-of-reviews">
+                          (<span class="quantity">5</span> đánh giá )
+                        </span>
+                      </div>
+                    </div>
+                    <!-- detail-product -->
+                  </div>
+                  <!-- item -->
+                </div>
+                <!-- col-3 -->
+                <div class="col-3 col-md-4 col-sm-6">
+                  <div class="item">
+                    <div class="img-product">
+                      <a href="#">
+                        <img
+                          src="../imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp"
+                          alt="Ảnh sản phẩm bán chạy"
+                        />
+                      </a>
+                    </div>
+                    <div class="detail-product">
+                      <h3>
+                        <a href="#"> PC GVN x ASUS Back to Future </a>
+                      </h3>
+                      <div class="information">
+                        <span title="Bộ sử lý">
+                          <i class="fa-solid fa-microchip"></i> i7-14700K
+                        </span>
+                        <span title="card">
+                          <i class="fa-solid fa-display"></i> RTX-4070
+                        </span>
+                        <span title="Chipset intel">
+                          <i class="fa-solid fa-chess-board"></i> B762
+                        </span>
+                        <span title="RAM">
+                          <i class="fa-solid fa-memory"></i> 16GB
+                        </span>
+                        <span title="ROM">
+                          <i class="fa-solid fa-chess-board"> </i> 500GB
+                        </span>
+                      </div>
+                      <div class="price-original">20.000.000đ</div>
+                      <div class="price-is-reduced">
+                        18.000.000đ <span class="percent-discount">10%</span>
+                      </div>
+                      <div class="evaluate">
+                        4.8 <i class="fa-solid fa-star"></i>
+                        <span class="number-of-reviews">
+                          (<span class="quantity">5</span> đánh giá )
+                        </span>
+                      </div>
+                    </div>
+                    <!-- detail-product -->
+                  </div>
+                  <!-- item -->
+                </div>
+                <!-- col-3 -->
+              </div>
+              <!-- row -->
+            </div>
+            <!-- collection -->
+          </div>
+          <!-- collection-wrap -->
+        </div>
+        <!-- detail-collection -->
+      </div>
+    </main>
+    <!-- main -->
+    <footer class="footer">
+      <div class="wrapper-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="row">
+                <div class="col-4">
+                  <div class="nav-introduce">
+                    <h4>VỀ HPC</h4>
+                    <ul>
+                      <li><a href="#">Giới thiệu</a></li>
+                      <li><a href="#"> Tuyển dụng</a></li>
+                      <li><a href="#">Black Friday 2024</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- col-4 -->
+                <div class="col-4">
+                  <div class="nav-policy">
+                    <h4>CHÍNH SÁCH</h4>
+                    <ul>
+                      <li><a href="#">Bảo hành</a></li>
+                      <li><a href="#">Vận chuyển</a></li>
+                      <li><a href="#">Bảo mật</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- col-4 -->
+                <div class="col-4">
+                  <div class="nav-info">
+                    <h4>THÔNG TIN</h4>
+                    <ul>
+                      <li><a href="#">Hệ thống cửa hàng</a></li>
+                      <li><a href="#">Hướng dẫn mua hàng</a></li>
+                      <li><a href="3">Hướng dẫn thanh toán</a></li>
+                      <li><a href="#">Hướng dẫn trả góp</a></li>
+                      <li><a href="#">Tra cứu địa chỉ bảo hành</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- col-4 -->
+              </div>
+              <!-- row -->
+            </div>
+            <!-- col-6 -->
+            <div class="col-6">
+              <div class="row">
+                <div class="col-5">
+                  <div class="hotline-support">
+                    <h4>Tổng đài hỗ trợ <span>(8:00 - 21:00)</span></h4>
+                    <ul>
+                      <li>Mua hàng: <span>1900.5301</span></li>
+                      <li>Bảo hành: <span>1900.5325</span></li>
+                      <li>Khiếu nại: <span>1800.6173</span></li>
+                      <li>Email: <span>cskh@hpc.com</span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-7">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="item">
+                        <h4>Đợn vị vận chuyển</h4>
+                        <ul>
+                          <li>
+                            <img
+                              src="../imgs/shipping-unit/ship_1.webp"
+                              alt="Ảnh đại diện thương hiệu vận chuyển"
+                            />
+                          </li>
+                          <li>
+                            <img
+                              src="../imgs/shipping-unit/ship_2.webp"
+                              alt="Ảnh đại diện thương hiệu vận chuyển"
+                            />
+                          </li>
+                          <li>
+                            <img
+                              src="../imgs/shipping-unit/ship_3.webp"
+                              alt="Ảnh đại diện thương hiệu vận chuyển"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="payment-method">
+                        <h4>Cách thức thành toán</h4>
+                        <ul>
+                          <li>
+                            <img
+                              src="../imgs/payment-method/pay_1.webp"
+                              alt="Ảnh phương thức thanh toán"
+                            />
+                          </li>
+                          <li>
+                            <img
+                              src="../imgs/payment-method/pay_4.webp"
+                              alt="Ảnh phương thức thanh toán"
+                            />
+                          </li>
+                          <li>
+                            <img
+                              src="../imgs/payment-method/pay_5.webp"
+                              alt="Ảnh phương thức thanh toán"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- col-6 -->
+          </div>
+          <!-- row -->
+          <div class="row row-bottom">
+            <div class="col-12">
+              <div class="item">
+                <div class="external-links">
+                  <h4>Kết nối vs chúng tôi:</h4>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fa-brands fa-twitter"></i> </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="notarization">
+                  <img
+                    src="../imgs/logo-bct.webp  "
+                    alt="ảnh bộ công thương "
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row-bottom -->
+        </div>
+        <!-- container -->
+      </div>
+      <!-- wrapper-footer -->
+    </footer>
+    <!-- footer -->
+  </body>
+</html>

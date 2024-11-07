@@ -1,0 +1,277 @@
+@use "../partials/mixin";
+.main {
+  .container {
+    .detail-collection {
+      .header-detail-collection {
+        margin-bottom: 20px;
+        a {
+          img {
+            width: 100%;
+            border-radius: 8px;
+          }
+        }
+      }
+      .collection-wrap {
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        .filter {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 30px;
+          .left {
+            .filter-all {
+              .title-filter-all {
+                font-size: 1.1rem;
+                font-weight: 700;
+                padding: 5px;
+                border: 0.8px solid rgb(104, 104, 104);
+                border-radius: 4px;
+              }
+              .box-filter-all {
+                display: none;
+              }
+            }
+          }
+          .right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            select {
+              padding: 5px;
+            }
+          }
+        }
+        .collection {
+          .row {
+            .col-3 {
+              .item {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                border: 0.8px solid rgb(199, 199, 199);
+                padding: 15px 10px;
+                box-shadow: 2px 2px 6px 4px rgb(125, 125, 125);
+                .img-product {
+                  padding: 10px;
+                  a {
+                    img {
+                      width: 100%;
+                    }
+                  }
+                }
+                .detail-product {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  gap: 10px;
+                  h3 {
+                    a {
+                      font-size: 0.9rem;
+                      font-weight: 700;
+                      &:hover {
+                        color: red;
+                      }
+                    }
+                  }
+                  .information {
+                    width: 100%;
+                    background-color: rgb(199, 199, 199);
+                    padding: 8px;
+                    font-size: 0.6rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 5px 10%;
+                    span {
+                    }
+                  }
+                  .price-original {
+                    text-decoration: line-through;
+                    font-size: 0.6rem;
+                  }
+                  .price-is-reduced {
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    font-size: 1rem;
+                    font-weight: 800;
+                    color: red;
+                    .percent-discount {
+                      border: 1px solid red;
+                      border-radius: 3px;
+                      font-size: 0.6rem;
+                      padding: 5px;
+                      font-weight: 600;
+                    }
+                  }
+                  .evaluate {
+                    font-size: 0.5rem;
+                    font-weight: 600;
+                    color: rgb(255, 183, 0);
+                    .number-of-reviews {
+                      color: black;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mixin.tablet-device {
+  .main {
+    .container {
+      .detail-collection {
+        .collection-wrap {
+          .filter {
+            .left {
+              .filter-all {
+                .box-filter-all {
+                  display: none;
+                }
+                .title-filter-all {
+                  font-size: 1rem;
+                }
+                .check-filter-all:checked ~ .box-filter-all {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: end;
+                  gap: 5px;
+                  background-color: rgb(179, 235, 245);
+                  margin-top: 10px;
+                  padding: 0px 5px 20px;
+                  border-radius: 6px;
+                  width: 100%;
+                  font-size: 0.9rem;
+                  .btn-filter-all {
+                    display: inline-block;
+                    border: 0.6px solid rgb(166, 166, 166);
+                    width: 25px;
+                    text-align: center;
+                    font-size: 0.9rem;
+                    margin-top: 5px;
+                    background-color: rgb(120, 120, 120);
+                    border-radius: 3px;
+                  }
+                  .wrapper-filter-item {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    gap: 10px;
+                  }
+                  .filter-item {
+                    select {
+                      option {
+                        display: inline-block;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .right {
+              display: none;
+            }
+          }
+          .collection {
+            .row {
+              .col-3 {
+                .item {
+                  .detail-product {
+                    gap: 5px;
+                    h3 {
+                      line-height: 10px;
+                      a {
+                        font-size: 0.8rem;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mixin.mobile-device {
+  .main {
+    .container {
+      .detail-collection {
+        .collection-wrap {
+          .filter {
+            .left {
+              .filter-all {
+                .title-filter-all {
+                  font-size: 0.6rem;
+                }
+                .check-filter-all:checked ~ .box-filter-all {
+                  .btn-filter-all {
+                    font-size: 0.6rem;
+                    width: 15px;
+                    padding: 5px;
+                  }
+                  .wrapper-filter-item {
+                    .filter-item {
+                      select {
+                        font-size: 0.5rem;
+                        option {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .collection {
+            .row {
+              .col-3 {
+                .item {
+                  .detail-product {
+                    h3 {
+                      line-height: 6px;
+                      a {
+                        font-size: 0.5rem;
+                      }
+                    }
+                    .information {
+                      span {
+                        font-size: 0.35rem;
+                      }
+                    }
+                    .price-original {
+                      font-size: 0.4rem;
+                    }
+                    .price-is-reduced {
+                      font-size: 0.6rem;
+                      gap: 5px;
+                      .percent-discount {
+                        font-size: 0.35rem;
+                        padding: 2px;
+                      }
+                    }
+                    .evaluate {
+                      font-size: 0.35rem;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

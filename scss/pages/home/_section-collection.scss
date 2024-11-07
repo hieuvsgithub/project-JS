@@ -24,6 +24,9 @@
             font-size: 1.6rem;
             color: rgb(41, 41, 41);
             padding: 10px 15px;
+            &:hover {
+              color: red;
+            }
           }
         }
         h3 {
@@ -38,22 +41,31 @@
       }
       .right {
         ul {
-          display: flex;
+          display: inline-flex;
           gap: 5px;
           li {
             a {
               font-size: 1.15rem;
               padding: 10px;
               color: black;
+              &:hover {
+                color: red;
+              }
             }
             .all {
               color: rgb(68, 68, 248);
+              &:hover {
+                color: red;
+              }
             }
           }
         }
         a {
           color: rgb(68, 68, 248);
           font-size: 1.15rem;
+          &:hover {
+            color: red;
+          }
         }
       }
     }
@@ -76,8 +88,10 @@
         box-shadow: 2px 2px 6px 4px rgb(125, 125, 125);
         .img-product {
           padding: 10px;
-          img {
-            width: 100%;
+          a {
+            img {
+              width: 100%;
+            }
           }
         }
         .detail-product {
@@ -88,6 +102,9 @@
           h3 {
             a {
               font-size: 1.4rem;
+              &:hover {
+                color: red;
+              }
             }
           }
           .information {

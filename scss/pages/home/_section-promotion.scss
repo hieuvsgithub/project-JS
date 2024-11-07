@@ -13,6 +13,9 @@
             font-size: 1.6rem;
             color: rgb(41, 41, 41);
             padding: 10px 15px;
+            &:hover {
+              color: red;
+            }
           }
         }
         h3 {
@@ -29,6 +32,9 @@
         a {
           color: rgb(68, 68, 248);
           font-size: 1.15rem;
+          &:hover {
+            color: red;
+          }
         }
       }
     }

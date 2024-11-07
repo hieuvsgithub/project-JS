@@ -1,0 +1,398 @@
+@use "../partials/mixin";
+
+.detail-product {
+  margin-top: 20px;
+  .container {
+    .row {
+      .col-12 {
+        .product-main {
+          padding: 10px;
+          background-color: white;
+          border-radius: 8px;
+          .row {
+            .col-5 {
+              .slides-img-product {
+                position: relative;
+                .carousel-inner {
+                  .wrapper-slide-img {
+                    .slide-img {
+                      img {
+                        width: 100%;
+                        border-radius: 6px;
+                      }
+                    }
+                  }
+                  .moves-img {
+                    display: flex;
+                    .item-move-img {
+                      width: 20%;
+                      img {
+                        width: 100%;
+                      }
+                    }
+                  }
+                }
+                .control {
+                  position: absolute;
+                  bottom: 10%;
+                  display: flex;
+                  justify-content: space-between;
+                  width: 100%;
+                }
+              }
+              .banner-promotion {
+                a {
+                  img {
+                    width: 100%;
+                  }
+                }
+              }
+            }
+            .col-7 {
+              .desc-product {
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h1 {
+                  font-size: 1.5rem;
+                  font-weight: 600;
+                }
+                .result-feedback {
+                  .result-evaluate {
+                    font-size: 1rem;
+                    color: rgb(250, 195, 42);
+                  }
+                  .nav-feedback {
+                    a {
+                      font-size: 1rem;
+                      font-weight: 500;
+                      color: rgb(21, 115, 255);
+                      &:hover {
+                        text-decoration: underline;
+                      }
+                    }
+                  }
+                }
+                .price-original {
+                  font-size: 1.1rem;
+                  color: rgb(131, 131, 131);
+                  text-decoration: line-through;
+                }
+                .price-is-reduced {
+                  font-size: 2rem;
+                  font-weight: 700;
+                  color: red;
+                  display: flex;
+                  align-items: center;
+                  gap: 15px;
+                  .percent-discount {
+                    font-size: 0.8rem;
+                    padding: 5px;
+                    border: 0.8px solid red;
+                    border-radius: 3px;
+                  }
+                }
+                .gift {
+                  .title-gift {
+                    font-size: 1.2rem;
+                    background-color: rgb(255, 219, 219);
+                    padding: 15px 20px;
+                    color: red;
+                    font-weight: 600;
+                    border-top-left-radius: 6px;
+                    border-top-right-radius: 6px;
+                  }
+                  .list-gift {
+                    padding: 15px 20px;
+                    font-size: 0.8rem;
+                    font-weight: 600;
+                    border: 0.5px solid rgb(255, 219, 219);
+                    border-bottom-left-radius: 6px;
+                    border-bottom-right-radius: 6px;
+                    ul {
+                      li {
+                        margin-bottom: 5px;
+                        span {
+                          color: red;
+                        }
+                      }
+                    }
+                  }
+                }
+                .select {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 30px;
+                  margin-bottom: 10px;
+                  .select-buy {
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    background-color: red;
+                    padding: 20px 40px;
+                    color: white;
+                    border-radius: 8px;
+                  }
+                  .select-add-cart {
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    background-color: rgb(255, 188, 72);
+                    padding: 20px 40px;
+                    color: white;
+                    border-radius: 8px;
+                  }
+                }
+                .benefit {
+                  font-size: 1.1rem;
+                  font-weight: 500;
+                  ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                  }
+                }
+                .payment-support {
+                  font-size: 1.1rem;
+                  font-weight: 700;
+                  border-top: 0.6px solid rgb(190, 190, 190);
+                  color: red;
+                  padding: 15px;
+                  a {
+                    color: rgb(62, 123, 255);
+                  }
+                }
+                .promotion {
+                  .title-promotion {
+                    font-size: 1.1rem;
+                    font-weight: 700;
+                    padding: 15px 20px;
+                    background-color: rgb(178, 178, 178);
+                    border-top-left-radius: 6px;
+                    border-top-right-radius: 6px;
+                  }
+                  .list-promotion {
+                    font-size: 0.9rem;
+                    border-bottom-left-radius: 6px;
+                    border-bottom-right-radius: 6px;
+                    border: 0.4px solid rgb(207, 207, 207);
+                    ul {
+                      li {
+                        padding: 15px 20px;
+                        &::before {
+                          content: "";
+                          border-radius: 50%;
+                          height: 16px;
+                          width: 16px;
+                          margin-right: 5px;
+                          display: inline-block;
+                          background-image: url("../../imgs/v-xanh.svg");
+                        }
+                        a {
+                          color: rgb(62, 123, 255);
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .col-7 {
+        .wrapper-specifications {
+          background-color: white;
+          padding: 20px;
+          border-radius: 8px;
+          h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: red;
+          }
+          table {
+            border: 0.6px solid rgb(150, 150, 150);
+            thead {
+              tr {
+                th {
+                  font-size: 1.4rem;
+                  font-weight: 600;
+                  border: 0.6px solid rgb(150, 150, 150);
+                }
+              }
+            }
+            tbody {
+              tr {
+                .specifications {
+                  text-align: center;
+                  font-size: 1rem;
+                  font-weight: 600;
+                  color: rgb(75, 150, 255);
+                  border: 0.6px solid rgb(150, 150, 150);
+                }
+                .info {
+                  border: 0.6px solid rgb(150, 150, 150);
+                  p {
+                    text-align: left;
+                    font-size: 0.9rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .col-5 {
+        .similar-products {
+          background-color: white;
+          padding: 15px;
+          border-radius: 8px;
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: red;
+          }
+          .similar-product {
+            display: flex;
+            .img-product {
+              width: 35%;
+              img {
+                width: 100%;
+              }
+            }
+            .info-product {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              gap: 10px;
+              h3 {
+                font-size: 0.85rem;
+                font-weight: 500;
+              }
+              .price-original {
+                font-size: 0.75rem;
+                text-decoration: line-through;
+              }
+              .price-is-reduced {
+                font-size: 1rem;
+                font-weight: 600;
+                color: red;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                .percent-discount {
+                  padding: 3px;
+                  font-size: 0.6rem;
+                  border: 0.4px solid red;
+                  border-radius: 2px;
+                }
+              }
+              .result-feedback {
+                font-size: 0.6rem;
+                .result-evaluate {
+                  color: rgb(255, 183, 50);
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mixin.mobile-device {
+  .detail-product {
+    .container {
+      .row {
+        .col-12 {
+          .product-main {
+            .row {
+              .col-7 {
+                .desc-product {
+                  gap: 10px;
+                  h1 {
+                    font-size: 1.3rem;
+                  }
+                  .result-feedback {
+                    .result-evaluate {
+                      font-size: 0.9rem;
+                    }
+                  }
+                  .price-original {
+                    font-size: 0.9rem;
+                  }
+                  .price-is-reduced {
+                    font-size: 1.3rem;
+                    .percent-discount {
+                      font-size: 0.6rem;
+                    }
+                  }
+                  .gift {
+                    .title-gift {
+                      font-size: 1.1rem;
+                      padding: 10px;
+                    }
+                    .list-gift {
+                      font-size: 0.85rem;
+                      padding: 15px;
+                    }
+                  }
+                  .select {
+                    font-size: 0.9rem;
+                    font-weight: 500;
+                    flex-direction: column;
+                    gap: 10px;
+                    text-align: center;
+                    .select-buy {
+                      width: 90%;
+                      padding: 15px 20px;
+                    }
+                    .select-add-cart {
+                      width: 90%;
+                      padding: 15px 20px;
+                    }
+                  }
+                  .benefit {
+                    ul {
+                      li {
+                        font-size: 0.9rem;
+                      }
+                    }
+                  }
+                  .payment-support {
+                    font-size: 1rem;
+                  }
+                  .promotion {
+                    .title-promotion {
+                      font-size: 1.1rem;
+                      padding: 10px;
+                    }
+                    .list-promotion {
+                      ul {
+                        li {
+                          padding: 10px 15px;
+                          gap: 3px;
+                          font-size: 0.8rem;
+                          a {
+                            display: inline-block;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
