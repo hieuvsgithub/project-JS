@@ -16,6 +16,7 @@
                 .carousel-inner {
                   .wrapper-slide-img {
                     .slide-img {
+                      display: block;
                       img {
                         width: 100%;
                         border-radius: 6px;
@@ -34,7 +35,7 @@
                 }
                 .control {
                   position: absolute;
-                  bottom: 10%;
+                  bottom: 7%;
                   display: flex;
                   justify-content: space-between;
                   width: 100%;
@@ -178,7 +179,7 @@
                     border: 0.4px solid rgb(207, 207, 207);
                     ul {
                       li {
-                        padding: 15px 20px;
+                        padding: 5px 20px;
                         &::before {
                           content: "";
                           border-radius: 50%;
@@ -199,6 +200,81 @@
             }
           }
         }
+        .wrapper-feedbacks {
+          padding: 10px;
+          background-color: white;
+          border-radius: 8px;
+          h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: red;
+            margin-bottom: 20px;
+          }
+          .wrapper-box-result-evaluate {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            .box-result-evaluate-left {
+              width: 30%;
+              text-align: center;
+              .result-evaluate {
+                font-size: 2.4rem;
+                color: red;
+                font-weight: 500;
+                margin-bottom: 10px;
+              }
+              .result-feedbacks {
+                font-size: 0.9rem;
+                span {
+                  font-weight: 500;
+                }
+              }
+            }
+            .box-result-evaluate-right {
+              width: 40%;
+              .wrapper-percent {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                .row-percent-evaluate {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  span {
+                    color: black;
+                    font-size: 0.9rem;
+                    i {
+                      color: rgb(255, 222, 35);
+                    }
+                  }
+                  .percent {
+                    width: 60%;
+                    height: 10px;
+                    background-color: rgb(214, 214, 214);
+                    border-radius: 99px;
+                  }
+                  .quantity-evaluate {
+                    color: black;
+                    font-size: 0.9rem;
+                  }
+                }
+              }
+            }
+          }
+          .btn-input-feedback {
+            width: 50%;
+            margin: 20px auto 0;
+            font-size: 1rem;
+            color: white;
+            font-weight: 500;
+            padding: 10px 20px;
+            background-color: rgb(94, 137, 255);
+            text-align: center;
+            border-radius: 99px;
+          }
+        }
       }
       .col-7 {
         .wrapper-specifications {
@@ -216,6 +292,7 @@
             thead {
               tr {
                 th {
+                  padding: 6px;
                   font-size: 1.4rem;
                   font-weight: 600;
                   border: 0.6px solid rgb(150, 150, 150);
@@ -225,6 +302,7 @@
             tbody {
               tr {
                 .specifications {
+                  padding: 6px;
                   text-align: center;
                   font-size: 1rem;
                   font-weight: 600;
@@ -232,10 +310,12 @@
                   border: 0.6px solid rgb(150, 150, 150);
                 }
                 .info {
+                  padding: 6px;
                   border: 0.6px solid rgb(150, 150, 150);
                   p {
                     text-align: left;
                     font-size: 0.9rem;
+                    line-height: 1.1rem;
                   }
                 }
               }
@@ -257,48 +337,189 @@
             margin-bottom: 10px;
             color: red;
           }
-          .similar-product {
-            display: flex;
-            .img-product {
-              width: 35%;
-              img {
-                width: 100%;
+          .wrapper-similar-product {
+            .similar-product {
+              display: flex;
+              .img-product {
+                width: 35%;
+                img {
+                  width: 100%;
+                }
+              }
+              .info-product {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 10px;
+                h3 {
+                  font-size: 0.85rem;
+                  font-weight: 500;
+                }
+                .price-original {
+                  font-size: 0.75rem;
+                  text-decoration: line-through;
+                }
+                .price-is-reduced {
+                  font-size: 1rem;
+                  font-weight: 600;
+                  color: red;
+                  display: flex;
+                  align-items: center;
+                  gap: 6px;
+                  .percent-discount {
+                    padding: 3px;
+                    font-size: 0.6rem;
+                    border: 0.4px solid red;
+                    border-radius: 2px;
+                  }
+                }
+                .result-feedback {
+                  font-size: 0.6rem;
+                  .result-evaluate {
+                    color: rgb(255, 183, 50);
+                    font-weight: 600;
+                  }
+                }
               }
             }
-            .info-product {
+          }
+        }
+        .box-news {
+          background-color: white;
+          padding: 15px;
+          border-radius: 8px;
+          margin-top: 20px;
+          h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: red;
+          }
+          .wrapper-news {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            .item-news {
               display: flex;
-              flex-direction: column;
-              justify-content: center;
-              gap: 10px;
+              gap: 5px;
+              .img-news {
+                width: 30%;
+                img {
+                  width: 100%;
+                }
+              }
               h3 {
-                font-size: 0.85rem;
+                font-size: 0.95rem;
                 font-weight: 500;
               }
-              .price-original {
-                font-size: 0.75rem;
-                text-decoration: line-through;
-              }
-              .price-is-reduced {
-                font-size: 1rem;
-                font-weight: 600;
-                color: red;
-                display: flex;
-                align-items: center;
-                gap: 6px;
-                .percent-discount {
-                  padding: 3px;
-                  font-size: 0.6rem;
-                  border: 0.4px solid red;
-                  border-radius: 2px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mixin.miniPc-device {
+  .detail-product {
+    .container {
+      .row {
+        .col-5 {
+          .similar-products {
+            .wrapper-similar-product {
+              display: flex;
+              gap: 10px;
+              .similar-product {
+                flex-direction: column;
+                .img-product {
+                  width: 100%;
+                  img {
+                    width: 100%;
+                  }
+                }
+                .info-product {
+                  padding: 5px;
+                  h3 {
+                    font-size: 1rem;
+                  }
+                  .price-is-reduced {
+                    font-size: 1.2rem;
+                  }
+                  .result-feedback {
+                    font-size: 0.7rem;
+                  }
                 }
               }
-              .result-feedback {
-                font-size: 0.6rem;
+            }
+          }
+          .box-news {
+            .wrapper-news {
+              gap: 10px;
+              .item-news {
+                gap: 20px;
+                .img-news {
+                  width: 25%;
+                }
+                h3 {
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mixin.tablet-device {
+  .detail-product {
+    .container {
+      .row {
+        .col-12 {
+          .wrapper-feedbacks {
+            h2 {
+              font-size: 1rem;
+              margin-bottom: 15px;
+            }
+            .wrapper-box-result-evaluate {
+              gap: 15px;
+              .box-result-evaluate-left {
+                width: 30%;
                 .result-evaluate {
-                  color: rgb(255, 183, 50);
-                  font-weight: 600;
+                  font-size: 1.6rem;
+                }
+                .result-feedbacks {
+                  font-size: 0.6rem;
                 }
               }
+              .box-result-evaluate-right {
+                width: 50%;
+                .wrapper-percent {
+                  .row-percent-evaluate {
+                    span {
+                      color: black;
+                      font-size: 0.6rem;
+                      i {
+                        color: rgb(255, 222, 35);
+                      }
+                    }
+                    .percent {
+                      width: 50%;
+                      height: 8px;
+                      background-color: rgb(214, 214, 214);
+                      border-radius: 99px;
+                    }
+                    .quantity-evaluate {
+                      color: black;
+                      font-size: 0.6rem;
+                    }
+                  }
+                }
+              }
+            }
+            .btn-input-feedback {
+              font-size: 0.7rem;
             }
           }
         }
@@ -387,6 +608,101 @@
                       }
                     }
                   }
+                }
+              }
+            }
+          }
+          .wrapper-feedbacks {
+            h2 {
+              font-size: 0.9rem;
+              margin-bottom: 15px;
+            }
+            .wrapper-box-result-evaluate {
+              gap: 15px;
+              .box-result-evaluate-left {
+                width: 30%;
+                .result-evaluate {
+                  font-size: 1.1rem;
+                }
+                .result-feedbacks {
+                  font-size: 0.5rem;
+                }
+              }
+              .box-result-evaluate-right {
+                width: 60%;
+                .wrapper-percent {
+                  .row-percent-evaluate {
+                    span {
+                      color: black;
+                      font-size: 0.5rem;
+                      i {
+                        color: rgb(255, 222, 35);
+                      }
+                    }
+                    .percent {
+                      width: 50%;
+                      height: 6px;
+                      background-color: rgb(214, 214, 214);
+                      border-radius: 99px;
+                    }
+                    .quantity-evaluate {
+                      color: black;
+                      font-size: 0.5rem;
+                    }
+                  }
+                }
+              }
+            }
+            .btn-input-feedback {
+              font-size: 0.6rem;
+            }
+          }
+        }
+        .col-5 {
+          .similar-products {
+            h2 {
+              font-size: 1.1rem;
+            }
+            .wrapper-similar-product {
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+              .similar-product {
+                flex-direction: row;
+                .img-product {
+                  width: 35%;
+                  img {
+                    width: 100%;
+                  }
+                }
+                .info-product {
+                  padding: 5px;
+                  h3 {
+                    font-size: 0.8rem;
+                  }
+                  .price-is-reduced {
+                    font-size: 0.9rem;
+                  }
+                  .result-feedback {
+                    font-size: 0.5rem;
+                  }
+                }
+              }
+            }
+          }
+          .box-news {
+            h2 {
+              font-size: 1.1rem;
+            }
+            .wrapper-news {
+              gap: 5px;
+              .item-news {
+                gap: 10px;
+                .img-news {
+                  width: 30%;
+                }
+                h3 {
+                  font-size: 0.75rem;
                 }
               }
             }

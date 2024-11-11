@@ -101,7 +101,10 @@
           gap: 10px;
           h3 {
             a {
-              font-size: 1.4rem;
+              display: inline-block;
+              font-size: 1.3rem;
+              min-height: 50px;
+              font-weight: 600;
               &:hover {
                 color: red;
               }
