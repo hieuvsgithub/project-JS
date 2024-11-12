@@ -1164,8 +1164,12 @@ h2 {
   justify-content: center;
   gap: 10px;
 }
+.main .container .detail-collection .collection-wrap .collection .row .col-3 .item .detail-product h3 {
+  line-height: 12px;
+  min-height: 35px;
+}
 .main .container .detail-collection .collection-wrap .collection .row .col-3 .item .detail-product h3 a {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 .main .container .detail-collection .collection-wrap .collection .row .col-3 .item .detail-product h3 a:hover {

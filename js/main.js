@@ -8,13 +8,24 @@ let bestSellerComputerMouse = document.querySelector(
 );
 let bestSellerKeyboard = document.querySelector(".best-seller-keyboard");
 
+// khai báo nít bấm XEM TẤT CẢ của từng loại sản phẩm
+let allProductPC = document.querySelector(".all-pc");
+let allProductLapTopGaming = document.querySelector(".all-laptop-gaming");
+let allProductLapTopVP = document.querySelector(".all-laptop-vp");
+let allProductComputerMouse = document.querySelector(".all-computer-mouse");
+let allProductKeyboard = document.querySelector(".all-keyboard");
+let allIn = document.querySelector(".all-pc");
+
 let url = "http://localhost:3000/products";
 import * as mixin from "./mixin.js";
+// import * as products from "./products.js";
 const dataProducts = await mixin.fetchAPI(url);
 
 // ham hien thi san pham
 function renderProducts(data, type, pointOfAppearance, quantity = 0) {
-  data = data.filter((value) => value.type === type);
+  if (type) {
+    data = data.filter((value) => value.type === type);
+  }
   pointOfAppearance.innerText = "";
   for (let i = 0; i < data.length - quantity; i++) {
     let product = document.createElement("div");
@@ -30,7 +41,9 @@ function renderProducts(data, type, pointOfAppearance, quantity = 0) {
               </div>
               <div class="detail-product">
                 <h3>
-                  <a href="#"> ${data[i].title} </a>
+                  <a href="/pages/detail-products.html?id=${data[i].id}"> ${
+      data[i].title
+    } </a>
                 </h3>
                 <div class="information">
                   <span title="Bộ sử lý">
@@ -71,3 +84,13 @@ function renderProducts(data, type, pointOfAppearance, quantity = 0) {
 renderProducts(dataProducts, "pc", bestSellerPC, 7);
 renderProducts(dataProducts, "laptop_gaming", bestSellerLaptopGaming, 7);
 renderProducts(dataProducts, "laptop_vp", bestSellerLaptopVP, 7);
+
+// xử lý nút bấm XEM TẤT CẢ
+
+function handleBtnAll(btn, type) {
+  btn.type.href = `/pages/products.html?type=${type}`;
+  console.log(btn);
+}
+handleBtnAll(allProductPC, "pc");
+handleBtnAll(allProductLapTopGaming, "laptop_gaming");
+handleBtnAll(allProductLapTopVP, "laptop_vp");
