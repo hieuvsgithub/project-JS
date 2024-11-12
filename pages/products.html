@@ -176,7 +176,7 @@
                     </label>
                     <div class="wrapper-filter-item">
                       <div class="filter-item filter-price">
-                        <select name="price" id="price">
+                        <select name="price" id="box-filter-price">
                           <option value="0">Giá</option>
                           <option value="1">Cao >> Thấp</option>
                           <option value="2">Thấp >> Cao</option>
@@ -184,7 +184,7 @@
                       </div>
                       <!-- filter-price  -->
                       <div class="filter-item filter-company">
-                        <select name="company" id="company">
+                        <select name="company" id="box-filter-company">
                           <option value="0">Hãng</option>
                           <option value="1">ACER</option>
                           <option value="2">ASUS</option>
@@ -196,7 +196,7 @@
                       </div>
                       <!-- filter-company  -->
                       <div class="filter-item filter-cpu">
-                        <select name="cpu" id="cpu">
+                        <select name="cpu" id="box-filter-cpu">
                           <option value="0">CPU</option>
                           <option value="1">Intel Core i5</option>
                           <option value="2">Intel Core i7</option>
@@ -205,7 +205,7 @@
                       </div>
                       <!-- filter-cpu  -->
                       <div class="filter-item filter-ram">
-                        <select name="cpu" id="cpu">
+                        <select name="cpu" id="box-filter-ram">
                           <option value="0">RAM</option>
                           <option value="1">16 GB</option>
                           <option value="2">8 GB</option>
@@ -219,7 +219,7 @@
               <!-- left -->
               <div class="right">
                 <div class="filter-price">
-                  <select name="price" id="price">
+                  <select onchange="filterPrice()" name="price" id="price">
                     <option value="0">Giá</option>
                     <option value="1">Cao >> Thấp</option>
                     <option value="2">Thấp >> Cao</option>
@@ -229,29 +229,18 @@
                 <div class="filter-company">
                   <select name="company" id="company">
                     <option value="0">Hãng</option>
-                    <option value="1">ACER</option>
-                    <option value="2">ASUS</option>
-                    <option value="3">AVITA</option>
-                    <option value="4">DELL</option>
-                    <option value="5">LENOVO</option>
-                    <option value="6">LG</option>
                   </select>
                 </div>
                 <!-- filter-company  -->
                 <div class="filter-cpu">
                   <select name="cpu" id="cpu">
                     <option value="0">CPU</option>
-                    <option value="1">Intel Core i5</option>
-                    <option value="2">Intel Core i7</option>
-                    <option value="3">Ultra 5-125H</option>
                   </select>
                 </div>
                 <!-- filter-cpu  -->
                 <div class="filter-ram">
-                  <select name="cpu" id="cpu">
+                  <select name="cpu" id="ram">
                     <option value="0">RAM</option>
-                    <option value="1">16 GB</option>
-                    <option value="2">8 GB</option>
                   </select>
                 </div>
                 <!-- filter-ram  -->

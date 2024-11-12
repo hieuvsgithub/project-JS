@@ -51,7 +51,9 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "PC I3",
+      "cpu": "PC I3",
+      "brand": "ASUS",
+      "ram": "8GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -90,7 +92,9 @@
       },
       "originalPrice": 22000000,
       "sale": 9,
-      "brand": "PC I5",
+      "cpu": "PC I5",
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 255.23,
@@ -127,9 +131,11 @@
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
+      "originalPrice": 40000000,
       "sale": 9,
-      "brand": "PC I5",
+      "cpu": "PC I5",
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -167,8 +173,10 @@
         "rom": "500GB"
       },
       "originalPrice": 20000000,
-      "sale": 10,
-      "brand": "PC I3",
+      "sale": 8,
+      "cpu": "PC I3",
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -207,7 +215,9 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "PC I9",
+      "cpu": "PC I9",
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -246,7 +256,9 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "PC I5",
+      "cpu": "PC I5",
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -285,7 +297,9 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "PC I7",
+      "cpu": "PC I7",
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -324,7 +338,9 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "PC I9",
+      "cpu": "PC I9",
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -363,7 +379,9 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "PC R3",
+      "cpu": "PC R3",
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -402,7 +420,9 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "PC R5",
+      "cpu": "PC R5",
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -441,7 +461,9 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "PCR5",
+      "cpu": "PC R5",
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -478,9 +500,12 @@
         "ram": "16GB",
         "rom": "500GB"
       },
+
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "PC R7",
+      "cpu": "PC R7",
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -519,7 +544,9 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "PC R9",
+      "cpu": "PC R9",
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -558,7 +585,9 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "PC R7",
+      "cpu": "PC R7",
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -597,7 +626,9 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "PC R3",
+      "cpu": "PC R3",
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -637,7 +668,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -676,7 +710,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -715,7 +752,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -754,7 +794,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -793,7 +836,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -832,7 +878,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -871,7 +920,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -910,7 +962,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -949,7 +1004,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -988,7 +1046,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1027,7 +1088,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1066,7 +1130,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1105,7 +1172,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1144,7 +1214,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1183,7 +1256,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1223,7 +1299,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1262,7 +1341,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1301,7 +1383,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1340,7 +1425,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1379,7 +1467,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1418,7 +1509,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1457,7 +1551,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1496,7 +1593,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1535,7 +1635,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1574,7 +1677,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1613,7 +1719,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1652,7 +1761,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1691,7 +1803,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1730,7 +1845,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1769,7 +1887,10 @@
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "brand": "asus",
+      "cpu": "asus",
+
+      "brand": "ASUS",
+      "ram": "16GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,

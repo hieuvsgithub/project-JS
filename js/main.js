@@ -86,10 +86,9 @@ renderProducts(dataProducts, "laptop_gaming", bestSellerLaptopGaming, 7);
 renderProducts(dataProducts, "laptop_vp", bestSellerLaptopVP, 7);
 
 // xử lý nút bấm XEM TẤT CẢ
-
 function handleBtnAll(btn, type) {
-  btn.type.href = `/pages/products.html?type=${type}`;
   console.log(btn);
+  btn.href = `/pages/products.html?type=${type}`;
 }
 handleBtnAll(allProductPC, "pc");
 handleBtnAll(allProductLapTopGaming, "laptop_gaming");
