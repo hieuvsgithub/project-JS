@@ -1,4 +1,6 @@
 let mainProduct = document.querySelector(".product-main");
+let inputSearch = document.querySelector("#search-inp");
+let btnSearch = document.querySelector("#btn-search");
 
 let url = "http://localhost:3000/products";
 import * as mixin from "./mixin.js";
@@ -59,13 +61,15 @@ function renderDetail() {
                       <!-- phản hồi -->
                     </div>
                     <!-- result-feedback -->
-                    <div class="price-original">${product.originalPrice}đ</div>
+                    <div class="price-original">${
+                      product.originalPrice
+                    }VND</div>
                     <!-- price-original -->
                     <div class="price-is-reduced">
                       ${
                         product.originalPrice -
                         product.originalPrice * (product.sale / 100)
-                      }đ<span class="percent-discount">${product.sale}%</span>
+                      }VND<span class="percent-discount">${product.sale}%</span>
                     </div>
                     <!-- price-is-reduced -->
                     <div class="gift">
@@ -223,6 +227,12 @@ btnNext.addEventListener("click", () => {
 });
 btnPrev.addEventListener("click", () => {
   prev();
+});
+
+// tạo sự kiện cho btnsearch
+btnSearch.addEventListener("click", () => {
+  localStorage.setItem("searching", inputSearch.value);
+  window.location.href = "../pages/products.html";
 });
 
 // setInterval(() => {

@@ -102,7 +102,7 @@
           h3 {
             a {
               display: inline-block;
-              font-size: 1.3rem;
+              font-size: 1.2rem;
               min-height: 50px;
               font-weight: 600;
               &:hover {
@@ -128,10 +128,14 @@
           .price-is-reduced {
             display: flex;
             align-items: center;
-            gap: 15px;
-            font-size: 1.6rem;
+            gap: 10px;
+            font-size: 1.2rem;
             font-weight: 800;
             color: red;
+            .txt {
+              font-size: 1rem;
+              font-weight: 500;
+            }
             .percent-discount {
               border: 1px solid red;
               border-radius: 3px;
@@ -229,6 +233,9 @@
             }
             .price-is-reduced {
               font-size: 1.4rem;
+              .txt {
+                font-size: 0.8rem;
+              }
               .percent-discount {
                 font-size: 1rem;
               }
@@ -304,6 +311,9 @@
             }
             .price-is-reduced {
               font-size: 1.2rem;
+              .txt {
+                font-size: 0.8rem;
+              }
               .percent-discount {
                 font-size: 0.8rem;
               }
@@ -379,6 +389,7 @@
             }
             .price-is-reduced {
               font-size: 1.2rem;
+
               .percent-discount {
                 font-size: 0.8rem;
               }

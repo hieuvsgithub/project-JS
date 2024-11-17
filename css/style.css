@@ -191,6 +191,7 @@ h2 {
   position: absolute;
   right: 10px;
   font-size: 1.2rem;
+  border: none;
 }
 .header .wrapper-header .nav {
   display: flex;
@@ -793,7 +794,7 @@ h2 {
 }
 .section-collection .container .section-content .item .detail-product h3 a {
   display: inline-block;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   min-height: 50px;
   font-weight: 600;
 }
@@ -816,10 +817,14 @@ h2 {
 .section-collection .container .section-content .item .detail-product .price-is-reduced {
   display: flex;
   align-items: center;
-  gap: 15px;
-  font-size: 1.6rem;
+  gap: 10px;
+  font-size: 1.2rem;
   font-weight: 800;
   color: red;
+}
+.section-collection .container .section-content .item .detail-product .price-is-reduced .txt {
+  font-size: 1rem;
+  font-weight: 500;
 }
 .section-collection .container .section-content .item .detail-product .price-is-reduced .percent-discount {
   border: 1px solid red;
@@ -894,6 +899,9 @@ h2 {
   .section-collection .container .section-content .item .detail-product .price-is-reduced {
     font-size: 1.4rem;
   }
+  .section-collection .container .section-content .item .detail-product .price-is-reduced .txt {
+    font-size: 0.8rem;
+  }
   .section-collection .container .section-content .item .detail-product .price-is-reduced .percent-discount {
     font-size: 1rem;
   }
@@ -948,6 +956,9 @@ h2 {
   }
   .section-collection .container .section-content .item .detail-product .price-is-reduced {
     font-size: 1.2rem;
+  }
+  .section-collection .container .section-content .item .detail-product .price-is-reduced .txt {
+    font-size: 0.8rem;
   }
   .section-collection .container .section-content .item .detail-product .price-is-reduced .percent-discount {
     font-size: 0.8rem;

@@ -2,10 +2,55 @@ let carouselInnerElement = document.querySelector(".carousel-inner");
 let btnNext = document.querySelector(".next");
 let btnPrev = document.querySelector(".prev");
 
-let url = "http://localhost:3000/slide";
-
-import * as mixin from "./mixin.js";
-const dataSlide = await mixin.fetchAPI(url);
+let dataSlide = [
+  {
+    id: 1,
+    title: "Slide 1",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc.",
+    image: "https://file.hstatic.net/200000722513/file/slider_nvidia.png",
+  },
+  {
+    id: 2,
+    title: "Slide 2",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ratione?",
+    image:
+      "https://file.hstatic.net/200000722513/file/thang_10_haloween_web_slider_800x400.png",
+  },
+  {
+    id: 3,
+    title: "Slide 3",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, magnam.",
+    image:
+      "https://file.hstatic.net/200000722513/file/web_slider_800x400_546c737be0664c5ca58d95ad0fc0aab3.png",
+  },
+  {
+    id: 4,
+    title: "Slide 4",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, illum?",
+    image:
+      "https://file.hstatic.net/200000722513/file/gearvn-pc-gvn-msi-slider.jpg",
+  },
+  {
+    id: 5,
+    title: "Slide 4",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, illum?",
+    image:
+      "https://file.hstatic.net/200000722513/file/banner_web_slider_800x400_laptop_gaming_wukong_d33e1e6762764ec799820bfcc5814047.jpg",
+  },
+  {
+    id: 6,
+    title: "Slide 5",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, magnam.",
+    image:
+      "https://file.hstatic.net/200000722513/file/banner_web_slider_800x400_xa_kho.jpg",
+  },
+];
 
 // hàm hiển thị slide
 function display(arr) {

@@ -1,42 +1,4 @@
 {
-  "slide": [
-    {
-      "id": 1,
-      "title": "Slide 1",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc.",
-      "image": "https://file.hstatic.net/200000722513/file/slider_nvidia.png"
-    },
-    {
-      "id": 2,
-      "title": "Slide 2",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ratione?",
-      "image": "https://file.hstatic.net/200000722513/file/thang_10_haloween_web_slider_800x400.png"
-    },
-    {
-      "id": 3,
-      "title": "Slide 3",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, magnam.",
-      "image": "https://file.hstatic.net/200000722513/file/web_slider_800x400_546c737be0664c5ca58d95ad0fc0aab3.png"
-    },
-    {
-      "id": 4,
-      "title": "Slide 4",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, illum?",
-      "image": "https://file.hstatic.net/200000722513/file/gearvn-pc-gvn-msi-slider.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Slide 4",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, illum?",
-      "image": "https://file.hstatic.net/200000722513/file/banner_web_slider_800x400_laptop_gaming_wukong_d33e1e6762764ec799820bfcc5814047.jpg"
-    },
-    {
-      "id": 6,
-      "title": "Slide 5",
-      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, magnam.",
-      "image": "https://file.hstatic.net/200000722513/file/banner_web_slider_800x400_xa_kho.jpg"
-    }
-  ],
   "products": [
     {
       "id": 1,
@@ -84,11 +46,11 @@
       "title": "PC GVN x ASUS Advanced Ai",
       "type": "pc",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "entries": "i5 12400F",
+        "card": "RX 6500XT",
+        "chipsetIntel": "H610",
         "ram": "16GB",
-        "rom": "1TB"
+        "rom": "500GB"
       },
       "originalPrice": 22000000,
       "sale": 9,
@@ -106,13 +68,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "http://127.0.0.1:5500/imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp",
+      "image": "https://product.hstatic.net/200000722513/product/pc_case_xigmatek_-_26_e36ac54740974ec88f65ca6eedfd10a2_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/3_e68704a03a634e27899e3b616e94b095_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4775c6ddb457403199978a240d935d19_compact.png",
-        "https://product.hstatic.net/200000722513/product/pc_asus_btf_4090__black__-_2_d6e4ebf0e8ea41b1bf2cb8c84df07ee1_compact.png",
-        "https://product.hstatic.net/200000722513/product/post-31_a6098ff076804515bf518020aa467fc1_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/post-27_b20128a751a94cce95fd5a949b82f972_compact.jpg"
+        "https://product.hstatic.net/200000722513/product/pc_case_xigmatek_-_26_e36ac54740974ec88f65ca6eedfd10a2_grande.png",
+        "https://product.hstatic.net/200000722513/product/pc_case_xigmatek_-_24_936cc341c90748bfa4fa7363b114291b_compact.png",
+        "https://product.hstatic.net/200000722513/product/pc_case_xigmatek_-_23_c6832c0dded9424e83cd361ffce6c901_compact.png",
+        "https://product.hstatic.net/200000722513/product/pc_case_xigmatek_-_22_e4c822262b3d4946a6f427d02adebf8b_compact.png",
+        "https://product.hstatic.net/200000722513/product/pc_case_xigmatek_-_25_41e4588dea544e7a9d77c98056ff265a_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -125,17 +87,17 @@
       "title": "PC GVN x AORUS XTREME ICE",
       "type": "pc",
       "specifications": {
-        "entries": "i5-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "entries": "Ultra 9 285K",
+        "card": "RTX 4090",
+        "chipsetIntel": "Z890",
+        "ram": "64GB",
+        "rom": "1TB"
       },
-      "originalPrice": 40000000,
+      "originalPrice": 140000000,
       "sale": 9,
       "cpu": "PC I5",
       "brand": "ASUS",
-      "ram": "16GB",
+      "ram": "64GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -147,13 +109,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "http://127.0.0.1:5500/imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp",
+      "image": "https://product.hstatic.net/200000722513/product/pc_gvn_rx6600_-_3_762ba90a94904a50809a93355cd819a7_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/3_e68704a03a634e27899e3b616e94b095_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4775c6ddb457403199978a240d935d19_compact.png",
-        "https://product.hstatic.net/200000722513/product/pc_asus_btf_4090__black__-_2_d6e4ebf0e8ea41b1bf2cb8c84df07ee1_compact.png",
-        "https://product.hstatic.net/200000722513/product/post-31_a6098ff076804515bf518020aa467fc1_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/post-27_b20128a751a94cce95fd5a949b82f972_compact.jpg"
+        "https://product.hstatic.net/200000722513/product/asus_ai1_101ac8f6698b437e94841fb4706de06a_compact.png",
+        "https://product.hstatic.net/200000722513/product/pba-banner-2024-ai-1200x1200px_70b646205aec49518fdbd2762f48c55c_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-01_4b24f6e434c747ae8a4c090c029a4337_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-21_9315710d2f3443829da83b440060aaab_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-06_66dafd53b67c4700b6169d591ed4591f_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -166,16 +128,16 @@
       "title": "PC GVN AMD R5-8400F/ VGA",
       "type": "pc",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "entries": "i9 14900K",
+        "card": "RTX 4080 Super",
+        "chipsetIntel": "Z790",
+        "ram": "64GB",
+        "rom": "1TB"
       },
-      "originalPrice": 20000000,
+      "originalPrice": 150000000,
       "sale": 8,
       "cpu": "PC I3",
-      "brand": "ASUS",
+      "brand": "AORUS",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -188,13 +150,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "http://127.0.0.1:5500/imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp",
+      "image": "https://product.hstatic.net/200000722513/product/pc_gvn_x_gigabyte__ice__-_32_e797aed458a94914b78e491d8c7a5ccb_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/3_e68704a03a634e27899e3b616e94b095_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4775c6ddb457403199978a240d935d19_compact.png",
-        "https://product.hstatic.net/200000722513/product/pc_asus_btf_4090__black__-_2_d6e4ebf0e8ea41b1bf2cb8c84df07ee1_compact.png",
-        "https://product.hstatic.net/200000722513/product/post-31_a6098ff076804515bf518020aa467fc1_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/post-27_b20128a751a94cce95fd5a949b82f972_compact.jpg"
+        "https://product.hstatic.net/200000722513/product/pc_gvn_x_gigabyte__ice__-_32_e797aed458a94914b78e491d8c7a5ccb_grande.png",
+        "https://product.hstatic.net/200000722513/product/post-29_5b6addc2a11647cfb7d86c48c3080a84_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-01_31db8406cb614a4cabd5ad456a5a934f_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-21_b24f5e8eb0f04193b6b3ad32890e4aaa_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-03_496887aaa3d54c1b87b3d210a267c1b4_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -207,13 +169,13 @@
       "title": "PC GVN Intel i5-12400F/ VGA",
       "type": "pc",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "entries": "R5-8400F",
+        "card": "RX 7600",
+        "chipsetIntel": "B650",
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
+      "originalPrice": 24000000,
       "sale": 10,
       "cpu": "PC I9",
       "brand": "ASUS",
@@ -229,13 +191,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "http://127.0.0.1:5500/imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp",
+      "image": "https://product.hstatic.net/200000722513/product/pc_nzxt_-_3_ea5b5bb589f046dcbabe890350205566_medium.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/3_e68704a03a634e27899e3b616e94b095_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4775c6ddb457403199978a240d935d19_compact.png",
-        "https://product.hstatic.net/200000722513/product/pc_asus_btf_4090__black__-_2_d6e4ebf0e8ea41b1bf2cb8c84df07ee1_compact.png",
-        "https://product.hstatic.net/200000722513/product/post-31_a6098ff076804515bf518020aa467fc1_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/post-27_b20128a751a94cce95fd5a949b82f972_compact.jpg"
+        "https://product.hstatic.net/200000722513/product/pc_gvn_-_amd_-_a21_-_3_c71ab3cdd9bf45cb947b98f4561300b4_compact.png",
+        "https://product.hstatic.net/200000722513/product/post-01_bc77cddaea224aa5bea291f36ef3499c_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-27_739935fbd6ad4feda91e575affce1a08_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-28_e2f50ff0c2e040ba92cd3a8e563b3765_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-02_367dc975cdaf457b9312c61115732934_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -248,9 +210,9 @@
       "title": "PC GVN Intel i3-12100F/ VGA RX 6500XT",
       "type": "pc",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "entries": "i5 12400F",
+        "card": "RTX 4060",
+        "chipsetIntel": "B760",
         "ram": "16GB",
         "rom": "500GB"
       },
@@ -270,13 +232,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "http://127.0.0.1:5500/imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp",
+      "image": "https://product.hstatic.net/200000722513/product/pc_gvn_viper_i3060_gen_13_-_3_a7538c02de68412d8a7a4c8626c1b51b_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/3_e68704a03a634e27899e3b616e94b095_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4775c6ddb457403199978a240d935d19_compact.png",
-        "https://product.hstatic.net/200000722513/product/pc_asus_btf_4090__black__-_2_d6e4ebf0e8ea41b1bf2cb8c84df07ee1_compact.png",
-        "https://product.hstatic.net/200000722513/product/post-31_a6098ff076804515bf518020aa467fc1_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/post-27_b20128a751a94cce95fd5a949b82f972_compact.jpg"
+        "https://product.hstatic.net/200000722513/product/pc_gvn_viper_i3060_gen_13_-_3_a7538c02de68412d8a7a4c8626c1b51b_grande.png",
+        "https://product.hstatic.net/200000722513/product/post-01_28478545380a46d688f5a8dade074a07_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-15_82e2a5c014c3481ea73077612d026b52_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-13_f053de6daeb34b55a201f3e016830eb2_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-14_03cf8383b36a4b5ca8351b99f6fced88_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -289,17 +251,17 @@
       "title": "PC GVN x Corsair iCUE ",
       "type": "pc",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "entries": "i3 12100F",
+        "card": "RX 6500XT",
+        "chipsetIntel": "H610",
+        "ram": "8GB",
+        "rom": "250GB"
       },
       "originalPrice": 20000000,
       "sale": 10,
       "cpu": "PC I7",
       "brand": "ASUS",
-      "ram": "16GB",
+      "ram": "8GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -311,13 +273,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "http://127.0.0.1:5500/imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp",
+      "image": "https://product.hstatic.net/200000722513/product/pc_gvn_rx6600_-_3_762ba90a94904a50809a93355cd819a7_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/3_e68704a03a634e27899e3b616e94b095_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4775c6ddb457403199978a240d935d19_compact.png",
-        "https://product.hstatic.net/200000722513/product/pc_asus_btf_4090__black__-_2_d6e4ebf0e8ea41b1bf2cb8c84df07ee1_compact.png",
-        "https://product.hstatic.net/200000722513/product/post-31_a6098ff076804515bf518020aa467fc1_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/post-27_b20128a751a94cce95fd5a949b82f972_compact.jpg"
+        "https://product.hstatic.net/200000722513/product/pc_gvn_rx6600_-_3_762ba90a94904a50809a93355cd819a7_grande.png",
+        "https://product.hstatic.net/200000722513/product/pc_gvn_rx6600_-_4_b0f0beb2642a42399c305f3638d2c364_compact.png",
+        "https://product.hstatic.net/200000722513/product/pc_gvn_rx6600_-_2_9577b2a53e584c10b3f50521079dd5cf_compact.png",
+        "https://product.hstatic.net/200000722513/product/pc_gvn_rx6600_-_1_c0c7d32f4c274ff280c9e75a3b8b0213_compact.png",
+        "https://product.hstatic.net/200000722513/product/pc_gvn_rx6600_-_5_b2d8837656c5443fac89ab0c84f93ba0_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -330,17 +292,17 @@
       "title": "PC GVN x MSI Dragon ACE",
       "type": "pc",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
+        "entries": "i5 14600KF",
+        "card": "RTX 4060 Ti",
+        "chipsetIntel": "Z790",
+        "ram": "32GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
+      "originalPrice": 33000000,
+      "sale": 1,
       "cpu": "PC I9",
       "brand": "ASUS",
-      "ram": "16GB",
+      "ram": "32GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -352,13 +314,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "http://127.0.0.1:5500/imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp",
+      "image": "https://product.hstatic.net/200000722513/product/pc_ai_9d2576de0d644c8289792f295c_97a1e5eafae649a0ae9c0e7e076322a2_grande.jpg",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/3_e68704a03a634e27899e3b616e94b095_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4775c6ddb457403199978a240d935d19_compact.png",
-        "https://product.hstatic.net/200000722513/product/pc_asus_btf_4090__black__-_2_d6e4ebf0e8ea41b1bf2cb8c84df07ee1_compact.png",
-        "https://product.hstatic.net/200000722513/product/post-31_a6098ff076804515bf518020aa467fc1_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/post-27_b20128a751a94cce95fd5a949b82f972_compact.jpg"
+        "https://product.hstatic.net/200000722513/product/pc_ai_9d2576de0d644c8289792f295c_97a1e5eafae649a0ae9c0e7e076322a2_grande.jpg",
+        "https://product.hstatic.net/200000722513/product/pc_ai_9d2576de0d644c8289792f295c8c2bdf_compact.png",
+        "https://product.hstatic.net/200000722513/product/pc_asus_tuf_btf_-_3_2d54bb55a893411d8ba905a11eb5a05c_compact.png",
+        "https://product.hstatic.net/200000722513/product/post-01_17e46e21b9094c298adce3e9c2f39b1c_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-02_eecd8c320d084053aa61b4cb75a69687_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -371,17 +333,17 @@
       "title": "PC GVN x ASUS Back to Future",
       "type": "pc",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "entries": "Ultra 9 285K",
+        "card": "RTX 4080 Super",
+        "chipsetIntel": "Z890",
+        "ram": "64GB",
+        "rom": "1TB"
       },
       "originalPrice": 20000000,
       "sale": 10,
       "cpu": "PC R3",
       "brand": "ASUS",
-      "ram": "16GB",
+      "ram": "64GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -393,13 +355,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "http://127.0.0.1:5500/imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp",
+      "image": "https://product.hstatic.net/200000722513/product/2_b81eb507bdfe42b3bce05c0c9e3e92d0_grande.jpg",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/3_e68704a03a634e27899e3b616e94b095_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4775c6ddb457403199978a240d935d19_compact.png",
-        "https://product.hstatic.net/200000722513/product/pc_asus_btf_4090__black__-_2_d6e4ebf0e8ea41b1bf2cb8c84df07ee1_compact.png",
-        "https://product.hstatic.net/200000722513/product/post-31_a6098ff076804515bf518020aa467fc1_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/post-27_b20128a751a94cce95fd5a949b82f972_compact.jpg"
+        "https://product.hstatic.net/200000722513/product/2_b81eb507bdfe42b3bce05c0c9e3e92d0_grande.jpg",
+        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4_0d47792de9c4424892dbd867b0382dc5_compact.png",
+        "https://product.hstatic.net/200000722513/product/pc__3__99a504041664478dac81c6a79a512233_compact.png",
+        "https://product.hstatic.net/200000722513/product/post-02_3dc114a1c1004d2daa7624388a2e3a77_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-01_8ce5a8492c1e46fda0da211b94ae0bbf_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -412,17 +374,17 @@
       "title": "PC GVN x ASUS Back to Future",
       "type": "pc",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "entries": "i7 14700K",
+        "card": "RTX 4080 Super",
+        "chipsetIntel": "Z890",
+        "ram": "64GB",
+        "rom": "1TB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
+      "originalPrice": 105000000,
+      "sale": 4,
       "cpu": "PC R5",
       "brand": "ASUS",
-      "ram": "16GB",
+      "ram": "64GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -453,14 +415,14 @@
       "title": "PC GVN x Corsair iCUE ",
       "type": "pc",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "entries": "i7 14700K",
+        "card": "RTX 4070Ti Super",
+        "chipsetIntel": "Z790",
+        "ram": "32GB",
+        "rom": "1TB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
+      "originalPrice": 71000000,
+      "sale": 12,
       "cpu": "PC R5",
       "brand": "ASUS",
       "ram": "16GB",
@@ -475,13 +437,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "http://127.0.0.1:5500/imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp",
+      "image": "https://product.hstatic.net/200000722513/product/2_b81eb507bdfe42b3bce05c0c9e3e92d0_grande.jpg",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/3_e68704a03a634e27899e3b616e94b095_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4775c6ddb457403199978a240d935d19_compact.png",
-        "https://product.hstatic.net/200000722513/product/pc_asus_btf_4090__black__-_2_d6e4ebf0e8ea41b1bf2cb8c84df07ee1_compact.png",
-        "https://product.hstatic.net/200000722513/product/post-31_a6098ff076804515bf518020aa467fc1_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/post-27_b20128a751a94cce95fd5a949b82f972_compact.jpg"
+        "https://product.hstatic.net/200000722513/product/2_b81eb507bdfe42b3bce05c0c9e3e92d0_grande.jpg",
+        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4_0d47792de9c4424892dbd867b0382dc5_compact.png",
+        "https://product.hstatic.net/200000722513/product/pc__3__99a504041664478dac81c6a79a512233_compact.png",
+        "https://product.hstatic.net/200000722513/product/post-02_3dc114a1c1004d2daa7624388a2e3a77_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-01_8ce5a8492c1e46fda0da211b94ae0bbf_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -494,15 +456,15 @@
       "title": "PC GVN x MSI PROJECT ZERO",
       "type": "pc",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "entries": "i5 14400F",
+        "card": "RTX 4070 Super",
+        "chipsetIntel": "B760",
         "ram": "16GB",
         "rom": "500GB"
       },
 
-      "originalPrice": 20000000,
-      "sale": 10,
+      "originalPrice": 39000000,
+      "sale": 4,
       "cpu": "PC R7",
       "brand": "ASUS",
       "ram": "16GB",
@@ -517,13 +479,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "http://127.0.0.1:5500/imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp",
+      "image": "https://product.hstatic.net/200000722513/product/pc_-_35_a9769976b4474527b9884f323069456d_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/3_e68704a03a634e27899e3b616e94b095_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4775c6ddb457403199978a240d935d19_compact.png",
-        "https://product.hstatic.net/200000722513/product/pc_asus_btf_4090__black__-_2_d6e4ebf0e8ea41b1bf2cb8c84df07ee1_compact.png",
-        "https://product.hstatic.net/200000722513/product/post-31_a6098ff076804515bf518020aa467fc1_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/post-27_b20128a751a94cce95fd5a949b82f972_compact.jpg"
+        "https://product.hstatic.net/200000722513/product/pc_-_35_a9769976b4474527b9884f323069456d_grande.png",
+        "https://product.hstatic.net/200000722513/product/post-01_d9b34a2dd95144eda54eb77c6490926f_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-02_22283f2310b1408f8d79fcd9f3bbb623_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-16_e51dcd4c2572481abfa84d6730368032_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-17_08e35dfbf07940f7be7f7c8a5b00e84a_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -536,13 +498,13 @@
       "title": "PC GVN x MSI Dragon X",
       "type": "pc",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "entries": "i5 14400F",
+        "card": "RTX 4060",
+        "chipsetIntel": "B760",
         "ram": "16GB",
-        "rom": "500GB"
+        "rom": "1TB"
       },
-      "originalPrice": 20000000,
+      "originalPrice": 26000000,
       "sale": 10,
       "cpu": "PC R9",
       "brand": "ASUS",
@@ -558,13 +520,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "http://127.0.0.1:5500/imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp",
+      "image": "https://product.hstatic.net/200000722513/product/thumb_project_zero_c58860d9fa3a409294c17ab45f46f612_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/3_e68704a03a634e27899e3b616e94b095_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4775c6ddb457403199978a240d935d19_compact.png",
-        "https://product.hstatic.net/200000722513/product/pc_asus_btf_4090__black__-_2_d6e4ebf0e8ea41b1bf2cb8c84df07ee1_compact.png",
-        "https://product.hstatic.net/200000722513/product/post-31_a6098ff076804515bf518020aa467fc1_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/post-27_b20128a751a94cce95fd5a949b82f972_compact.jpg"
+        "https://product.hstatic.net/200000722513/product/thumb_project_zero_c58860d9fa3a409294c17ab45f46f612_grande.png",
+        "https://product.hstatic.net/200000722513/product/post-01_11fc5d067d1d42ee98411d8adfcaffbc_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-03_57a569bef5b8498f9d758ac51794ac2e_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-04_241618f3bf3f4c61849084ba1a9b2da7_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-05_89b048f56f7a4367848ff8d77d6c7f35_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -578,13 +540,13 @@
       "type": "pc",
       "specifications": {
         "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "card": "RTX 4070 Super",
+        "chipsetIntel": "Z790",
+        "ram": "32GB",
+        "rom": "1TB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
+      "originalPrice": 50000000,
+      "sale": 1,
       "cpu": "PC R7",
       "brand": "ASUS",
       "ram": "16GB",
@@ -599,13 +561,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "http://127.0.0.1:5500/imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp",
+      "image": "https://product.hstatic.net/200000722513/product/thumb_i7_msi_e8ebf152f4c448de8c39a8fc49aa31d7_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/3_e68704a03a634e27899e3b616e94b095_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4775c6ddb457403199978a240d935d19_compact.png",
-        "https://product.hstatic.net/200000722513/product/pc_asus_btf_4090__black__-_2_d6e4ebf0e8ea41b1bf2cb8c84df07ee1_compact.png",
-        "https://product.hstatic.net/200000722513/product/post-31_a6098ff076804515bf518020aa467fc1_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/post-27_b20128a751a94cce95fd5a949b82f972_compact.jpg"
+        "https://product.hstatic.net/200000722513/product/thumb_i7_msi_e8ebf152f4c448de8c39a8fc49aa31d7_grande.png",
+        "https://product.hstatic.net/200000722513/product/post-03_8500a764548e425f80a5fbaf77164f86_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-02_3dc96f3340ca4763b561da6501504572_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-23_bef7d84734d84eb3ba93183df1831e9a_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-09_f4c5934a168a4ca190afeceb5365abfb_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -618,17 +580,17 @@
       "title": "PC GVN Intel i3-12100F/ VGA GTX 1650",
       "type": "pc",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "entries": "i9 14900K",
+        "card": "RTX 4090",
+        "chipsetIntel": "Z790",
+        "ram": "32GB",
+        "rom": "1TB"
       },
       "originalPrice": 20000000,
       "sale": 10,
       "cpu": "PC R3",
       "brand": "ASUS",
-      "ram": "16GB",
+      "ram": "32GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -640,13 +602,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "http://127.0.0.1:5500/imgs/hot-sale-products/gr701_-_8_cb365132fb6e4bc8a0e87e8811ef585a_medium.webp",
+      "image": "https://product.hstatic.net/200000722513/product/thumb_i7_msi_e8ebf152f4c448de8c39a8fc49aa31d7_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/3_e68704a03a634e27899e3b616e94b095_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/pc_ai_copy_4775c6ddb457403199978a240d935d19_compact.png",
-        "https://product.hstatic.net/200000722513/product/pc_asus_btf_4090__black__-_2_d6e4ebf0e8ea41b1bf2cb8c84df07ee1_compact.png",
-        "https://product.hstatic.net/200000722513/product/post-31_a6098ff076804515bf518020aa467fc1_compact.jpg",
-        "https://product.hstatic.net/200000722513/product/post-27_b20128a751a94cce95fd5a949b82f972_compact.jpg"
+        "https://product.hstatic.net/200000722513/product/thumb_i7_msi_e8ebf152f4c448de8c39a8fc49aa31d7_grande.png",
+        "https://product.hstatic.net/200000722513/product/post-01_c3b3ab5bf4ce4b408028324dab7dd072_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-19_36e49392d54a4addbff3c088be504cae_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-20_184b8cbb8b4e41469f4b13bcee34a373_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/post-06_e0e3bdefaa984a3994b79d14f77d3522_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -662,16 +624,15 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "screen": "15.6 inch FHD IPS",
+        "ram": "24GB",
+        "rom": "512GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
-
+      "originalPrice": 32990000,
+      "sale": 11,
+      "cpu": "AMD R7",
       "brand": "ASUS",
-      "ram": "16GB",
+      "ram": "24GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -702,18 +663,17 @@
       "title": "Laptop gaming Lenovo LOQ 15IAX9 83GS001SVN",
       "type": "laptop_gaming",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "entries": "i5-12450HX",
+        "card": "RTX 2050",
+        "screen": "15.6 inch",
+        "ram": "12GB",
+        "rom": "512 GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
-
+      "originalPrice": 18490000,
+      "sale": 3,
+      "cpu": "AMD R7",
       "brand": "ASUS",
-      "ram": "16GB",
+      "ram": "12GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -725,13 +685,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/khung-laptop-23_fc6b74bf6c0e47209d09c4437ed57dd4_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_e964ab2260084f61ada7da1457a92c7d_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_02_3019693de20d434cb1cf55826397f662_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_fcc39edb45dd4943bc84ba045194ddbb_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct2_01_d970ba75845d45faa4fbcd7689ec0642_compact.png"
+        "https://product.hstatic.net/200000722513/product/khung-laptop-23_fc6b74bf6c0e47209d09c4437ed57dd4_grande.png",
+        "https://product.hstatic.net/200000722513/product/loq_15iax9_ct2_03_0a035737fc614e15827d6246c01120f7_compact.png",
+        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_e7084e67a84444be91aba147379448b3_compact.png",
+        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_0cc1564312e140d1b9b590250cce4fea_compact.png",
+        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_02_f8e2c7eb6f3f47f1a978a842ea0375df_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -744,16 +704,15 @@
       "title": "Laptop Gaming Acer Nitro 5 AN515 45 R6EV",
       "type": "laptop_gaming",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "entries": "R5-5600H",
+        "card": "GTX 1650",
+        "screen": "15.6inch FHD",
+        "ram": "8GB",
+        "rom": "512GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
-
+      "originalPrice": 23990000,
+      "sale": 42,
+      "cpu": "AMD R7",
       "brand": "ASUS",
       "ram": "16GB",
       "weight": 2,
@@ -767,13 +726,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/acer-nitro-5-an515-46-r6qr_76527b5f7ffc4b1ba85be70a47091c25_1024x1024_8a2f0281efa040adb268338bcae8933c_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_e964ab2260084f61ada7da1457a92c7d_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_02_3019693de20d434cb1cf55826397f662_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_fcc39edb45dd4943bc84ba045194ddbb_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct2_01_d970ba75845d45faa4fbcd7689ec0642_compact.png"
+        "https://product.hstatic.net/200000722513/product/acer_nitro_5__6__d023a54bd2a2413085b51d085fce4812_00f481f3285e4b09a88639da6f15f89d_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/acer_nitro_5__7__7068f5cfb9c74ca5b774473e1074b90b_9efc5f9a15824716977daac6cb83f251_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/acer_nitro_5__5__c76ed6029a824c9687255016f75346ee_14e87116b0544ea892720ed8062cb755_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/acer_nitro_5__2__ab988288d458424d82f1a6b15a0717ac_8e74d27526844ad28c2f532af675d911_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/acer_nitro_5__3__7524ba180f074fe38bb2ebb7e5c168cd_adb4a67a32cc453aa428c5c425872cab_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -786,16 +745,15 @@
       "title": "Laptop gaming Acer Nitro 5 AN515 46 R6QR",
       "type": "laptop_gaming",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "entries": "R7-6800H",
+        "card": "RTX 3060",
+        "screen": "15.6 inch FHD",
         "ram": "16GB",
-        "rom": "500GB"
+        "rom": "512GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
-
+      "originalPrice": 22990000,
+      "sale": 4,
+      "cpu": "AMD R9",
       "brand": "ASUS",
       "ram": "16GB",
       "weight": 2,
@@ -809,13 +767,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/acer-nitro-5-an515-46-r6qr_76527b5f7ffc4b1ba85be70a47091c25_1024x1024_8a2f0281efa040adb268338bcae8933c_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_e964ab2260084f61ada7da1457a92c7d_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_02_3019693de20d434cb1cf55826397f662_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_fcc39edb45dd4943bc84ba045194ddbb_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct2_01_d970ba75845d45faa4fbcd7689ec0642_compact.png"
+        "https://product.hstatic.net/200000722513/product/acer-nitro-5-an515-46-r6qr_76527b5f7ffc4b1ba85be70a47091c25_1024x1024_8a2f0281efa040adb268338bcae8933c_grande.png",
+        "https://product.hstatic.net/200000722513/product/acer-nitro-5-an515-46-r6qr-r7-6800h-3_4fbc39ad93b040e0813f6b33e77ccd38_a14c5093be864a5ab8b70e1bc599b590_compact.png",
+        "https://product.hstatic.net/200000722513/product/acer-nitro-5-an515-46-r6qr-r7-6800h-1_47bf49bfe06647bbb84b1ed92e6253de_1012389295394c9198d30822543f0519_compact.png",
+        "https://product.hstatic.net/200000722513/product/acer-nitro-5-an515-46-r6qr-r7-6800h-7_6ced579b07a0477487145ec3f6847cce_c2bded561b504d39a207e7af6716dd07_compact.png",
+        "https://product.hstatic.net/200000722513/product/acer-nitro-5-an515-46-r6qr-r7-6800h-4_27ce0f90efff439694311cdbdd104a3f_9ce1e1ab4ea74424b193bf0b498a1acb_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -828,16 +786,15 @@
       "title": "Laptop gaming MSI Thin 15 B13UC 2044VN",
       "type": "laptop_gaming",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "entries": "i7-13620H",
+        "card": "RTX 3050",
+        "screen": "15.6inch",
         "ram": "16GB",
-        "rom": "500GB"
+        "rom": "512GB"
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "cpu": "asus",
-
+      "cpu": "AMD R9",
       "brand": "ASUS",
       "ram": "16GB",
       "weight": 2,
@@ -851,13 +808,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/thin-new_d31ff3b88e7f40e7ac88acc624e03d4f_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_e964ab2260084f61ada7da1457a92c7d_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_02_3019693de20d434cb1cf55826397f662_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_fcc39edb45dd4943bc84ba045194ddbb_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct2_01_d970ba75845d45faa4fbcd7689ec0642_compact.png"
+        "https://product.hstatic.net/200000722513/product/thin-new_d31ff3b88e7f40e7ac88acc624e03d4f_grande.png",
+        "https://product.hstatic.net/200000722513/product/hinh_san_pham_1_441f7a93b28c4d5695ade1f33389db2d_compact.png",
+        "https://product.hstatic.net/200000722513/product/hinh_san_pham_3_e2fbebc2833a405986c38d7dfe07c467_compact.png",
+        "https://product.hstatic.net/200000722513/product/pic_3_8cb2b6a7156b43128c86ffeee5196263_compact.png",
+        "https://product.hstatic.net/200000722513/product/1024__3__6fd37d05bd6949209e7b883aee0fe29f_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -870,17 +827,16 @@
       "title": "Laptop gaming MSI Katana 15 B13VFK 676VN",
       "type": "laptop_gaming",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "entries": "i7-13620H",
+        "card": "RTX 4060",
+        "screen": "15.6inch",
         "ram": "16GB",
-        "rom": "500GB"
+        "rom": "1TB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
-
-      "brand": "ASUS",
+      "originalPrice": 27990000,
+      "sale": 4,
+      "cpu": "AMD R9",
+      "brand": "ACER",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -893,13 +849,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/1205vn_da651643e91047bfa9729c53f93ffc6e_large_39f1561f3448481c94add35d7fda7dc4_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_e964ab2260084f61ada7da1457a92c7d_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_02_3019693de20d434cb1cf55826397f662_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_fcc39edb45dd4943bc84ba045194ddbb_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct2_01_d970ba75845d45faa4fbcd7689ec0642_compact.png"
+        "https://product.hstatic.net/200000722513/product/1024__4__f80dfe50c36646c6b8be2e312dc85198_48168a93d27f44a4a975daba5ea786d3_compact.png",
+        "https://product.hstatic.net/200000722513/product/1024__3__5e4376abfc5a4d938d14943688e5db7a_c9f85efdc0b64af588f37bc8e578d113_compact.png",
+        "https://product.hstatic.net/200000722513/product/1024__2__96a5109812e2419f8f9dcea3141cfa7f_46641d44fdc04ccf819ca9de8c0531f6_compact.png",
+        "https://product.hstatic.net/200000722513/product/1024_678c3eff653d46b5b5d463c3bfcc9a94_485221810db44de6994791f97036e94c_compact.png",
+        "https://product.hstatic.net/200000722513/product/1024__1__0270263ad4de41bc9ee142c50b02478d_480f0d61e1064755a072cbac96bd9bde_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -912,18 +868,17 @@
       "title": "Laptop gaming MSI Katana 15 B13VEK 252VN",
       "type": "laptop_gaming",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "entries": "i7-13620H",
+        "card": "RTX 4050",
+        "screen": "15.6inch",
+        "ram": "8GB",
+        "rom": "512GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
-
-      "brand": "ASUS",
-      "ram": "16GB",
+      "originalPrice": 33990000,
+      "sale": 29,
+      "cpu": "AMD i7",
+      "brand": "ACER",
+      "ram": "8GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -935,13 +890,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/1205vn_da651643e91047bfa9729c53f93ffc6e_large_39f1561f3448481c94add35d7fda7dc4_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_e964ab2260084f61ada7da1457a92c7d_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_02_3019693de20d434cb1cf55826397f662_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_fcc39edb45dd4943bc84ba045194ddbb_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct2_01_d970ba75845d45faa4fbcd7689ec0642_compact.png"
+        "https://product.hstatic.net/200000722513/product/1205vn_da651643e91047bfa9729c53f93ffc6e_large_39f1561f3448481c94add35d7fda7dc4_grande.png",
+        "https://product.hstatic.net/200000722513/product/p-gaming-msi-katana-15-b13vek-252vn-1_a336f129fc874587a476e4c7dfecabdf_0c12a98a67b34ec2882cca1f36106763_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/p-gaming-msi-katana-15-b13vek-252vn-2_2e289c7ac8514d2ba14d4c73c885a0bb_582c356fef73423ea48a3fac1dd7e63a_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/p-gaming-msi-katana-15-b13vek-252vn-3_2d450979c0d847a2b7cf5a12e366cea7_26f2a5646027421a9e5b3bacadb335f5_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/p-gaming-msi-katana-15-b13vek-252vn-4_dbc0252c879b4e49801c4a569244ae70_c12c8dfd0e1c44cd86160f5ed03b9290_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -954,18 +909,17 @@
       "title": "Laptop gaming Lenovo LOQ 15IAX9 83GS001RVN",
       "type": "laptop_gaming",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "entries": "i5-12450HX",
+        "card": "RTX 3050",
+        "screen": "15.6 inch",
+        "ram": "12 GB",
+        "rom": "512GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
-
+      "originalPrice": 22490000,
+      "sale": 5,
+      "cpu": "AMD i7",
       "brand": "ASUS",
-      "ram": "16GB",
+      "ram": "12 GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -977,13 +931,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/khung-laptop-23_fd54463b52cb4cf79732623e567e930e_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_e964ab2260084f61ada7da1457a92c7d_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_02_3019693de20d434cb1cf55826397f662_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_fcc39edb45dd4943bc84ba045194ddbb_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct2_01_d970ba75845d45faa4fbcd7689ec0642_compact.png"
+        "https://product.hstatic.net/200000722513/product/khung-laptop-23_fd54463b52cb4cf79732623e567e930e_grande.png",
+        "https://product.hstatic.net/200000722513/product/loq_15iax9_ct2_03_89e0af5638d345b4a106afb6717ab38e_compact.png",
+        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_14b1a5f04c9c4bd99c3372aae36b3a46_compact.png",
+        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_e060c7219ed745ce83017d95799d960e_compact.png",
+        "https://product.hstatic.net/200000722513/product/loq_15iax9_ct1_07_19e17559e7934150953ac4c3e67f354d_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -996,17 +950,16 @@
       "title": "Laptop gaming Lenovo LOQ 15IRX9 83DV00D5VN",
       "type": "laptop_gaming",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "entries": "i7-13620H",
+        "card": "RTX 4050",
+        "screen": "15.6inch",
+        "ram": "8 GB",
+        "rom": "512GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
-
-      "brand": "ASUS",
+      "originalPrice": 33990000,
+      "sale": 29,
+      "cpu": "AMD i7",
+      "brand": "ACER",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -1019,13 +972,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/ava1_5a226b37a3db45b98caca9337da40b88_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_e964ab2260084f61ada7da1457a92c7d_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_02_3019693de20d434cb1cf55826397f662_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_fcc39edb45dd4943bc84ba045194ddbb_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct2_01_d970ba75845d45faa4fbcd7689ec0642_compact.png"
+        "https://product.hstatic.net/200000722513/product/ava1_5a226b37a3db45b98caca9337da40b88_grande.png",
+        "https://product.hstatic.net/200000722513/product/ava_91471f3aa00440dabe3b9679fc7c5f87_compact.png",
+        "https://product.hstatic.net/200000722513/product/o-16-phoenix-an16-41-r5m4-r5-7535hs_1_58e4285abbff437a9bf7460c0ad5ec1c_0bed0d6ace704912bd733ad6c59f7abd_compact.png",
+        "https://product.hstatic.net/200000722513/product/o-16-phoenix-an16-41-r5m4-r5-7535hs_2_a0bd0205064948a6bcf1a0e94fd3a64b_2256579b483241e488bc6de4f724a90e_compact.png",
+        "https://product.hstatic.net/200000722513/product/o-16-phoenix-an16-41-r5m4-r5-7535hs_3_69e1eb6d576e415fb559410436b0aaf1_8f2fb9f1f556453d8db3761b8b55c9bd_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1038,18 +991,17 @@
       "title": "Laptop gaming Acer Nitro 16 Phoenix AN16 41 R60F",
       "type": "laptop_gaming",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "entries": "i5-12450HX",
+        "card": "RTX 3050",
+        "screen": "15.6inch",
+        "ram": "12GB",
+        "rom": "512GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
-
-      "brand": "ASUS",
-      "ram": "16GB",
+      "originalPrice": 22490000,
+      "sale": 5,
+      "cpu": "AMD i7",
+      "brand": "MSI",
+      "ram": "12GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1080,18 +1032,17 @@
       "title": "Laptop gaming Acer Nitro 16 Phoenix AN16 41 R3SM",
       "type": "laptop_gaming",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
-        "rom": "500GB"
+        "entries": "R7-7840HS",
+        "card": "RTX 4050",
+        "screen": "15.6inch",
+        "ram": "8GB",
+        "rom": "512GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
-
-      "brand": "ASUS",
-      "ram": "16GB",
+      "originalPrice": 39990000,
+      "sale": 28,
+      "cpu": "AMD i7",
+      "brand": "MSI",
+      "ram": "8GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1103,13 +1054,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/ava1_79847e6b9c664977afe799d3ca914a03_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_e964ab2260084f61ada7da1457a92c7d_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_02_3019693de20d434cb1cf55826397f662_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_fcc39edb45dd4943bc84ba045194ddbb_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct2_01_d970ba75845d45faa4fbcd7689ec0642_compact.png"
+        "https://product.hstatic.net/200000722513/product/ava1_79847e6b9c664977afe799d3ca914a03_grande.png",
+        "https://product.hstatic.net/200000722513/product/ava_788f72222d354d0bbd94796f3d49e387_compact.png",
+        "https://product.hstatic.net/200000722513/product/o-16-phoenix-an16-41-r5m4-r5-7535hs_1_58e4285abbff437a9bf7460c0ad5ec1c_ba5c9d2762d348d9b2d1e7a58b9591b2_compact.png",
+        "https://product.hstatic.net/200000722513/product/o-16-phoenix-an16-41-r5m4-r5-7535hs_2_a0bd0205064948a6bcf1a0e94fd3a64b_4cf2e9fbcf1349b2b4c198b4f15beb53_compact.png",
+        "https://product.hstatic.net/200000722513/product/o-16-phoenix-an16-41-r5m4-r5-7535hs_3_69e1eb6d576e415fb559410436b0aaf1_abb71a4a24364fe99a1f516b09cea95f_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1122,17 +1073,17 @@
       "title": "Laptop gaming Acer Nitro 16 Phoenix AN16 41 R76E",
       "type": "laptop_gaming",
       "specifications": {
-        "entries": "i7-14700K",
-        "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "entries": "R9-7940HS",
+        "card": "RTX 4060",
+        "screen": "15.6inch",
         "ram": "16GB",
-        "rom": "500GB"
+        "rom": "512GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
+      "originalPrice": 31490000,
+      "sale": 6,
+      "cpu": "AMD I5",
 
-      "brand": "ASUS",
+      "brand": "MSI",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -1145,13 +1096,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/lp040w_124541e5ca0947f78a7483bc988e44b4_grande.gif",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_e964ab2260084f61ada7da1457a92c7d_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_02_3019693de20d434cb1cf55826397f662_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_fcc39edb45dd4943bc84ba045194ddbb_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct2_01_d970ba75845d45faa4fbcd7689ec0642_compact.png"
+        "https://product.hstatic.net/200000722513/product/lp040w_124541e5ca0947f78a7483bc988e44b4_grande.gif",
+        "https://product.hstatic.net/200000722513/product/w800__5__30e94b26c8f44cb4badc71ef0027b2c7_compact.png",
+        "https://product.hstatic.net/200000722513/product/w800__4__17780e4d9a424b6fbd806e7e498a3b4c_compact.png",
+        "https://product.hstatic.net/200000722513/product/w800__3__7b88f352fe074af08e16a4c76346e998_compact.png",
+        "https://product.hstatic.net/200000722513/product/w800__2__60d5e4b1f652414596396e545c9f4f83_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1166,15 +1117,14 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
       "originalPrice": 20000000,
       "sale": 10,
-      "cpu": "asus",
-
-      "brand": "ASUS",
+      "cpu": "AMD I5",
+      "brand": "LENOVO",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -1187,13 +1137,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/khung-laptop-23_f1837c085c544a839405fc8df8a9cabd_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_e964ab2260084f61ada7da1457a92c7d_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_02_3019693de20d434cb1cf55826397f662_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_fcc39edb45dd4943bc84ba045194ddbb_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct2_01_d970ba75845d45faa4fbcd7689ec0642_compact.png"
+        "https://product.hstatic.net/200000722513/product/khung-laptop-23_f1837c085c544a839405fc8df8a9cabd_grande.png",
+        "https://product.hstatic.net/200000722513/product/c08519961_03038942f71b44e59cd56a90cd9b3221_compact.png",
+        "https://product.hstatic.net/200000722513/product/c08519833_a44b5c01e7eb42eb8d21ea64525b7bc4_compact.png",
+        "https://product.hstatic.net/200000722513/product/c08519897_fd8e7d6df7d040949bf7bfa6b1496e11_compact.png",
+        "https://product.hstatic.net/200000722513/product/23c1_victus_16_80w_micasilver_nonfpr_nonodd_coreset_rearleft_c3a8bdd777d045d6963af068268f2158_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1208,15 +1158,14 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
-
-      "brand": "ASUS",
+      "originalPrice": 20490000,
+      "sale": 24,
+      "cpu": "AMD I5",
+      "brand": "HP",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -1229,13 +1178,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/ava_948d63eae6f1421291e0e993add6727e_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_e964ab2260084f61ada7da1457a92c7d_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_02_3019693de20d434cb1cf55826397f662_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_fcc39edb45dd4943bc84ba045194ddbb_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct2_01_d970ba75845d45faa4fbcd7689ec0642_compact.png"
+        "https://product.hstatic.net/200000722513/product/ava_948d63eae6f1421291e0e993add6727e_grande.png",
+        "https://product.hstatic.net/200000722513/product/1_d21202e1b01745b1985532ed26f08cce_5c58cc58a3154515b0c49b91cd6a300a_compact.png",
+        "https://product.hstatic.net/200000722513/product/2_304118efa2834c44a6b3a7ea0bc16d51_4f843a9155ab41a7ab60f5de1f6c3bc3_compact.png",
+        "https://product.hstatic.net/200000722513/product/3_7bca6b7fdd10450db4e38fdec32f0e30_f6cead415ada42f783993635341f3e79_compact.png",
+        "https://product.hstatic.net/200000722513/product/4_f617aa0b51a7486e8db7b64fdbac2f7a_51aeeb7a16e84ac8beededd0fdde5e2b_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1250,15 +1199,14 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
-
-      "brand": "ASUS",
+      "originalPrice": 35990000,
+      "sale": 11,
+      "cpu": "AMD I5",
+      "brand": "HP",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -1271,13 +1219,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/1411vn-2_0de912de79104f1183b0284cbacab24e_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_a3fe472a1c8b4ebbbf00dadad7daa25f_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_01_e964ab2260084f61ada7da1457a92c7d_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_02_3019693de20d434cb1cf55826397f662_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct1_03_fcc39edb45dd4943bc84ba045194ddbb_compact.png",
-        "https://product.hstatic.net/200000722513/product/loq_15irx9_ct2_01_d970ba75845d45faa4fbcd7689ec0642_compact.png"
+        "https://product.hstatic.net/200000722513/product/1411vn-2_0de912de79104f1183b0284cbacab24e_grande.png",
+        "https://product.hstatic.net/200000722513/product/pic_3_67d86ef4f2b84bda8a1de5fe9cced9dc_compact.png",
+        "https://product.hstatic.net/200000722513/product/hinh_san_pham_3_e4a6286a743946e5baa8e28d351c8945_compact.png",
+        "https://product.hstatic.net/200000722513/product/hinh_san_pham_1_3e37c29647c446b88d1def2316e726f2_compact.png",
+        "https://product.hstatic.net/200000722513/product/pic_4_6f47362e09c440c7b3b2a4721b598f1c_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1293,14 +1241,13 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
-
+      "originalPrice": 10000000,
+      "sale": 5,
+      "cpu": "Ultra 5-125H",
       "brand": "ASUS",
       "ram": "16GB",
       "weight": 2,
@@ -1335,13 +1282,13 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
+      "originalPrice": 47000000,
       "sale": 10,
-      "cpu": "asus",
+      "cpu": "Ultra 5-125H",
 
       "brand": "ASUS",
       "ram": "16GB",
@@ -1356,13 +1303,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/ava_814c76fd5ca947fc9900d838a6769b8e_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_01_b448bba0ebac4243a5d2d59a364ab7fb_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_02_f850fbdbf1c2419a8e7b6ab75a1938d2_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct2_05_fa102e9eb45141aa8809aa3324d33bce_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_06_142379d8c5454ed4bf7f5075883935a5_compact.png"
+        "https://product.hstatic.net/200000722513/product/ava_814c76fd5ca947fc9900d838a6769b8e_grande.png",
+        "https://product.hstatic.net/200000722513/product/n-laptop-acer-aspire-3-a315-58-54m5-5_63fe903f86d74a429efa1450f83ee1c2_71af2ccbe1bf4985affb1c9382476c1a_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/n-laptop-acer-aspire-3-a315-58-54m5-4_a41177fa94484b7a932f65b7e9c2dd1b_af6b916c69884d55933effeedb4711a2_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/n-laptop-acer-aspire-3-a315-58-54m5-2_6aac705091654210b89261d346d8d058_c46f6b885eae485ea5e0a6161b31dd7e_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/n-laptop-acer-aspire-3-a315-58-54m5-3_462c41810ab640b5b05f233495be3377_2a212fa2a2ff44cc96ad40712bdf276d_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1377,15 +1324,15 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
+        "screen": "B762",
+        "ram": "8GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
+      "originalPrice": 12000000,
+      "sale": 5,
+      "cpu": "Ultra 5-125H",
 
-      "brand": "ASUS",
+      "brand": "LG",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -1398,13 +1345,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/ava_9ebb0708a1834156941f6fb60da838c4_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_01_b448bba0ebac4243a5d2d59a364ab7fb_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_02_f850fbdbf1c2419a8e7b6ab75a1938d2_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct2_05_fa102e9eb45141aa8809aa3324d33bce_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_06_142379d8c5454ed4bf7f5075883935a5_compact.png"
+        "https://product.hstatic.net/200000722513/product/ava_9ebb0708a1834156941f6fb60da838c4_grande.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v14_g4_iru_ct1_09_0138ec373a02481486e0ebfe3c56556f_compact.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v14_g4_iru_ct1_12_6e55fd47ed824d8aaf89efc47c19f880_compact.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v14_g4_iru_ct2_06_749efd9985e2431ba970fc4641aedcba_compact.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v14_g4_iru_ct2_01_dec6e013d43848ffa777f456f84493b1_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1419,15 +1366,15 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
+        "screen": "B762",
+        "ram": "8GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
+      "originalPrice": 14000000,
+      "sale": 2,
+      "cpu": "Intel Core i7",
 
-      "brand": "ASUS",
+      "brand": "LG",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -1442,11 +1389,11 @@
       ],
       "image": "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_01_b448bba0ebac4243a5d2d59a364ab7fb_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_02_f850fbdbf1c2419a8e7b6ab75a1938d2_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct2_05_fa102e9eb45141aa8809aa3324d33bce_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_06_142379d8c5454ed4bf7f5075883935a5_compact.png"
+        "https://product.hstatic.net/200000722513/product/ava_9ebb0708a1834156941f6fb60da838c4_grande.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v14_g4_iru_ct1_09_0138ec373a02481486e0ebfe3c56556f_compact.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v14_g4_iru_ct1_12_6e55fd47ed824d8aaf89efc47c19f880_compact.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v14_g4_iru_ct2_06_749efd9985e2431ba970fc4641aedcba_compact.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v14_g4_iru_ct2_01_dec6e013d43848ffa777f456f84493b1_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1461,15 +1408,15 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
+      "originalPrice": 21000000,
       "sale": 10,
-      "cpu": "asus",
+      "cpu": "Intel Core i7",
 
-      "brand": "ASUS",
+      "brand": "LG",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -1482,13 +1429,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/ava_9ebb0708a1834156941f6fb60da838c4_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_01_b448bba0ebac4243a5d2d59a364ab7fb_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_02_f850fbdbf1c2419a8e7b6ab75a1938d2_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct2_05_fa102e9eb45141aa8809aa3324d33bce_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_06_142379d8c5454ed4bf7f5075883935a5_compact.png"
+        "https://product.hstatic.net/200000722513/product/ava_9ebb0708a1834156941f6fb60da838c4_grande.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v14_g4_iru_ct1_09_0138ec373a02481486e0ebfe3c56556f_compact.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v14_g4_iru_ct1_12_6e55fd47ed824d8aaf89efc47c19f880_compact.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v14_g4_iru_ct2_06_749efd9985e2431ba970fc4641aedcba_compact.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v14_g4_iru_ct2_01_dec6e013d43848ffa777f456f84493b1_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1503,16 +1450,16 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
+      "originalPrice": 15000000,
+      "sale": 2,
+      "cpu": "Intel Core i7",
 
       "brand": "ASUS",
-      "ram": "16GB",
+      "ram": "8GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1524,13 +1471,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/khung-laptop-23_b898f38424a44201bf2df947e637c74e_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_01_b448bba0ebac4243a5d2d59a364ab7fb_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_02_f850fbdbf1c2419a8e7b6ab75a1938d2_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct2_05_fa102e9eb45141aa8809aa3324d33bce_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_06_142379d8c5454ed4bf7f5075883935a5_compact.png"
+        "https://product.hstatic.net/200000722513/product/khung-laptop-23_b898f38424a44201bf2df947e637c74e_grande.png",
+        "https://product.hstatic.net/200000722513/product/asus-vivobook-15-oled-a1505va-ma468w_d2642bc41bd84971a2970fd38c2c9185_13ba03b92bcf44188b8ad89f772aba68_compact.png",
+        "https://product.hstatic.net/200000722513/product/sus-vivobook-15-oled-a1505va-ma468w_3_8a55adc974de491ab6488a7cb10acbb4_5006db168fd343b194ad84db51699970_compact.png",
+        "https://product.hstatic.net/200000722513/product/0eef2c64124985082c2e5251d24_7fe5f53a7c6247f68cad7a76af233226_1024x1024_8aa5cdc5033f42b88b12f495370bf805_compact.png",
+        "https://product.hstatic.net/200000722513/product/177d6dd45dba017f687f0500e05_5c03347b17454d2b813fa1dcad19c813_1024x1024_6c7342a6ec3047a68e1efb6520ecc105_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1545,16 +1492,16 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
       "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
+      "sale": 20,
+      "cpu": "Intel Core i5",
 
-      "brand": "ASUS",
-      "ram": "16GB",
+      "brand": "LG",
+      "ram": "8GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1566,13 +1513,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/khung-laptop-23_b898f38424a44201bf2df947e637c74e_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_01_b448bba0ebac4243a5d2d59a364ab7fb_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_02_f850fbdbf1c2419a8e7b6ab75a1938d2_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct2_05_fa102e9eb45141aa8809aa3324d33bce_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_06_142379d8c5454ed4bf7f5075883935a5_compact.png"
+        "https://product.hstatic.net/200000722513/product/khung-laptop-23_b898f38424a44201bf2df947e637c74e_grande.png",
+        "https://product.hstatic.net/200000722513/product/asus-vivobook-15-oled-a1505va-ma468w_d2642bc41bd84971a2970fd38c2c9185_13ba03b92bcf44188b8ad89f772aba68_compact.png",
+        "https://product.hstatic.net/200000722513/product/sus-vivobook-15-oled-a1505va-ma468w_3_8a55adc974de491ab6488a7cb10acbb4_5006db168fd343b194ad84db51699970_compact.png",
+        "https://product.hstatic.net/200000722513/product/0eef2c64124985082c2e5251d24_7fe5f53a7c6247f68cad7a76af233226_1024x1024_8aa5cdc5033f42b88b12f495370bf805_compact.png",
+        "https://product.hstatic.net/200000722513/product/177d6dd45dba017f687f0500e05_5c03347b17454d2b813fa1dcad19c813_1024x1024_6c7342a6ec3047a68e1efb6520ecc105_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1587,15 +1534,15 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
+      "originalPrice": 25000000,
       "sale": 10,
-      "cpu": "asus",
+      "cpu": "Intel Core i5",
 
-      "brand": "ASUS",
+      "brand": "LG",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -1629,15 +1576,15 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
+      "originalPrice": 27000000,
+      "sale": 5,
+      "cpu": "Intel Core i7",
 
-      "brand": "ASUS",
+      "brand": "LENOVO",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -1650,13 +1597,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/km095w_9e26278b10f642f18dd9855f30828c43_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_01_b448bba0ebac4243a5d2d59a364ab7fb_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_02_f850fbdbf1c2419a8e7b6ab75a1938d2_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct2_05_fa102e9eb45141aa8809aa3324d33bce_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_06_142379d8c5454ed4bf7f5075883935a5_compact.png"
+        "https://product.hstatic.net/200000722513/product/km095w_9e26278b10f642f18dd9855f30828c43_grande.png",
+        "https://product.hstatic.net/200000722513/product/vobook_14_oled_x1405v_m1405y_cool_silver_black_keyboard_12_fingerprint_e0c64103cf8e411b8934a5abd92ea7c4_compact.png",
+        "https://product.hstatic.net/200000722513/product/vobook_14_oled_x1405v_m1405y_cool_silver_black_keyboard_07_fingerprint_776fe1c0bfb7488e90ef8f1737c06abb_compact.png",
+        "https://product.hstatic.net/200000722513/product/vobook_14_oled_x1405v_m1405y_cool_silver_black_keyboard_08_fingerprint_23951ef8f70f40c2a1b505f2d862b3fd_compact.png",
+        "https://product.hstatic.net/200000722513/product/vobook_14_oled_x1405v_m1405y_cool_silver_black_keyboard_13_fingerprint_d48fac641f1f4f0bbecd3ef4ef61e570_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1671,16 +1618,16 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
+      "originalPrice": 29000000,
       "sale": 10,
-      "cpu": "asus",
+      "cpu": "Intel Core i7",
 
-      "brand": "ASUS",
-      "ram": "16GB",
+      "brand": "LENOVO",
+      "ram": "8GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1692,13 +1639,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/km095w_9e26278b10f642f18dd9855f30828c43_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_01_b448bba0ebac4243a5d2d59a364ab7fb_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_02_f850fbdbf1c2419a8e7b6ab75a1938d2_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct2_05_fa102e9eb45141aa8809aa3324d33bce_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_06_142379d8c5454ed4bf7f5075883935a5_compact.png"
+        "https://product.hstatic.net/200000722513/product/km095w_9e26278b10f642f18dd9855f30828c43_grande.png",
+        "https://product.hstatic.net/200000722513/product/vobook_14_oled_x1405v_m1405y_cool_silver_black_keyboard_12_fingerprint_e0c64103cf8e411b8934a5abd92ea7c4_compact.png",
+        "https://product.hstatic.net/200000722513/product/vobook_14_oled_x1405v_m1405y_cool_silver_black_keyboard_07_fingerprint_776fe1c0bfb7488e90ef8f1737c06abb_compact.png",
+        "https://product.hstatic.net/200000722513/product/vobook_14_oled_x1405v_m1405y_cool_silver_black_keyboard_08_fingerprint_23951ef8f70f40c2a1b505f2d862b3fd_compact.png",
+        "https://product.hstatic.net/200000722513/product/vobook_14_oled_x1405v_m1405y_cool_silver_black_keyboard_13_fingerprint_d48fac641f1f4f0bbecd3ef4ef61e570_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1713,16 +1660,16 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
+      "originalPrice": 16000000,
+      "sale": 5,
+      "cpu": "Intel Core i5",
 
-      "brand": "ASUS",
-      "ram": "16GB",
+      "brand": "DELL",
+      "ram": "8GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1734,13 +1681,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/lg-gram-2023-fix_28f08b20a1724869a1d5da4920697371_medium.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_01_b448bba0ebac4243a5d2d59a364ab7fb_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_02_f850fbdbf1c2419a8e7b6ab75a1938d2_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct2_05_fa102e9eb45141aa8809aa3324d33bce_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_06_142379d8c5454ed4bf7f5075883935a5_compact.png"
+        "https://product.hstatic.net/200000722513/product/s-vivobook-s-16-oled-s5606ma-mx051w_1_b0f568af3bfe48c399c99a9ae7e3d0f8_8ea43a50f21a4d4290752931ecf1b7b5_compact.png",
+        "https://product.hstatic.net/200000722513/product/s-vivobook-s-16-oled-s5606ma-mx051w_2_6fab4271f27c45e5bd24a9f2c6c069ed_61cf80fbfa634ea3b1787617cecf1735_compact.png",
+        "https://product.hstatic.net/200000722513/product/s-vivobook-s-16-oled-s5606ma-mx051w_7_a0a51601ea8448ccb9ec6d15aadd74e6_4645ee0a506a40608c79527823c3db56_compact.png",
+        "https://product.hstatic.net/200000722513/product/s-vivobook-s-16-oled-s5606ma-mx051w_3_ffff3e385f1444bba90259fe7ec3c967_d393df93b7c9485e8285e055d68f705a_compact.png",
+        "https://product.hstatic.net/200000722513/product/s-vivobook-s-16-oled-s5606ma-mx051w_4_d2a0d6bc46b84335a4579f57fa66ea08_aac0ac9a89f84ba68e76fe10dc5b044f_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1755,16 +1702,16 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
+      "originalPrice": 27000000,
       "sale": 10,
-      "cpu": "asus",
+      "cpu": "Intel Core i5",
 
-      "brand": "ASUS",
-      "ram": "16GB",
+      "brand": "DELL",
+      "ram": "8GB",
       "weight": 2,
       "dimensions": {
         "width": 226.49,
@@ -1776,13 +1723,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/lg-gram-2023-fix_28f08b20a1724869a1d5da4920697371_medium.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_01_b448bba0ebac4243a5d2d59a364ab7fb_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_02_f850fbdbf1c2419a8e7b6ab75a1938d2_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct2_05_fa102e9eb45141aa8809aa3324d33bce_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_06_142379d8c5454ed4bf7f5075883935a5_compact.png"
+        "https://product.hstatic.net/200000722513/product/gearvn-laptop-asus-zenbook-14-oled-ux3405ma-pp151w-1_ead79d8b9bd647bc9a08242e7f8d6632_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/gearvn-laptop-asus-zenbook-14-oled-ux3405ma-pp151w-2_c569652eee8e4acc8f0658f9b978ab67_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/gearvn-laptop-asus-zenbook-14-oled-ux3405ma-pp151w-3_63fada9e52f24443a9ffab5acf2ab5e3_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/gearvn-laptop-asus-zenbook-14-oled-ux3405ma-pp151w-4_e5f02334e1e845ab9d2b58c732e6635c_compact.jpg",
+        "https://product.hstatic.net/200000722513/product/gearvn-laptop-asus-zenbook-14-oled-ux3405ma-pp151w-5_e505ca7cab004780b154eec98f77b267_compact.jpg"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1797,15 +1744,15 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
+      "originalPrice": 13000000,
+      "sale": 20,
+      "cpu": "Ultra 5-125H",
 
-      "brand": "ASUS",
+      "brand": "ACER",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -1818,13 +1765,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/ava1_6b4ba423955947d6a9db3e1b1b92ce74_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_01_b448bba0ebac4243a5d2d59a364ab7fb_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_02_f850fbdbf1c2419a8e7b6ab75a1938d2_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct2_05_fa102e9eb45141aa8809aa3324d33bce_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_06_142379d8c5454ed4bf7f5075883935a5_compact.png"
+        "https://product.hstatic.net/200000722513/product/ava1_6b4ba423955947d6a9db3e1b1b92ce74_grande.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v15_g4_iru_ct1_06_3465558ffcf2489488de89cb14e0a12b_compact.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v15_g4_iru_ct1_07_58390121f2be490791bcc60eb647ad9e_compact.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v15_g4_iru_ct1_08_79fbbbb1249b4c41a651c3c67f8b5048_compact.png",
+        "https://product.hstatic.net/200000722513/product/lenovo_v15_g4_iru_ct1_09_df401e003de54e76ae35cd115e883add_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1839,15 +1786,15 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
-        "ram": "16GB",
+        "screen": "B762",
+        "ram": "8GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
+      "originalPrice": 15000000,
       "sale": 10,
-      "cpu": "asus",
+      "cpu": "Ultra 5-125H",
 
-      "brand": "ASUS",
+      "brand": "ACER",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -1860,13 +1807,13 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/4_2295693202614981b7c53bb2056fed47_grande.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_01_b448bba0ebac4243a5d2d59a364ab7fb_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_02_f850fbdbf1c2419a8e7b6ab75a1938d2_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct2_05_fa102e9eb45141aa8809aa3324d33bce_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_06_142379d8c5454ed4bf7f5075883935a5_compact.png"
+        "https://product.hstatic.net/200000722513/product/4_2295693202614981b7c53bb2056fed47_grande.png",
+        "https://product.hstatic.net/200000722513/product/1_7f1de6c248d2483ea0e633503421e013_compact.png",
+        "https://product.hstatic.net/200000722513/product/2_c723a68c36cd402892d541e1f6daee86_compact.png",
+        "https://product.hstatic.net/200000722513/product/3_9b3e494f519248b6afe429cb054950d0_compact.png",
+        "https://product.hstatic.net/200000722513/product/5_183304c9e50446f7a7267fe17733b779_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
@@ -1881,15 +1828,14 @@
       "specifications": {
         "entries": "i7-14700K",
         "card": "RTX-4070",
-        "chipsetIntel": "B762",
+        "screen": "B762",
         "ram": "16GB",
         "rom": "500GB"
       },
-      "originalPrice": 20000000,
-      "sale": 10,
-      "cpu": "asus",
-
-      "brand": "ASUS",
+      "originalPrice": 60000000,
+      "sale": 8,
+      "cpu": "Ultra 5-125H",
+      "brand": "ACER",
       "ram": "16GB",
       "weight": 2,
       "dimensions": {
@@ -1902,19 +1848,489 @@
         "Hỗ trợ đổi mới trong 7 ngày.",
         "miễn phí giao hàng toàn quốc."
       ],
-      "image": "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
+      "image": "https://product.hstatic.net/200000722513/product/v3i7005w-gray_f2f7c64c905847a3b0ebcd594ef15ece_medium.png",
       "imgDetail": [
-        "https://product.hstatic.net/200000722513/product/ava_8236b3b0602640c48f4a922e1a7dd7f1_medium.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_01_b448bba0ebac4243a5d2d59a364ab7fb_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_02_f850fbdbf1c2419a8e7b6ab75a1938d2_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct2_05_fa102e9eb45141aa8809aa3324d33bce_compact.png",
-        "https://product.hstatic.net/200000722513/product/yoga_pro_7_14imh9_ct1_06_142379d8c5454ed4bf7f5075883935a5_compact.png"
+        "https://product.hstatic.net/200000722513/product/us-zenbook-duo-oled-ux8406ma-pz307w_1_fb9426a5bbe4414d8b06fb7f2abb445f_f449a6fdeace4575b5a74e3aeed2661f_compact.png",
+        "https://product.hstatic.net/200000722513/product/us-zenbook-duo-oled-ux8406ma-pz307w_2_d5c079025f074dbd94b457ad53695f63_c03200953e5b4fbca7ed2afee8f0679f_compact.png",
+        "https://product.hstatic.net/200000722513/product/us-zenbook-duo-oled-ux8406ma-pz307w_3_35af0f843889402ca7eef5c38b67862b_bd02a28ec5a242d79633f61c3f18d699_compact.png",
+        "https://product.hstatic.net/200000722513/product/us-zenbook-duo-oled-ux8406ma-pz307w_4_c7dd7175a46a4339b41c32ad950de86d_37b88551a97942d99eb80a27daeeca7b_compact.png",
+        "https://product.hstatic.net/200000722513/product/us-zenbook-duo-oled-ux8406ma-pz307w_6_f98a79a286ef4e82bef95da67b59a782_ff8545f96190440b8936e4823bb41a49_compact.png"
       ],
       "promotion": [
         "Giảm ngay 100.000đ khi mua Microsoft Office kèm Laptop tại GEARVN",
         "Giảm ngay 50.000đ khi mua thêm bàn phím kèm Laptop tại GEARVN",
         "Giảm ngay 140.000đ khi mua Microsoft Office kèm Laptop tại GEARVN"
       ]
+    },
+
+    {
+      "id": 46,
+      "title": "Chuột Cooler Master MM712 Hybird Wireless",
+      "type": "computer-mouse",
+      "title": "Chuột Cooler Master MM712 Hybird Wireless",
+      "specifications": {
+        "pin": "có",
+        "lamp": "có",
+        "wire": "không"
+      },
+      "wire": "không",
+      "originalPrice": 800000,
+      "sale": 10,
+      "color": "trắng",
+      "brand": "AKKO",
+      "weight": 2,
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_medium.png",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
+    },
+    {
+      "id": 47,
+      "title": "Chuột Razer Basilisk V3 Pro 35K Black",
+      "type": "computer-mouse",
+      "specifications": {
+        "pin": "có",
+        "lamp": "không",
+        "wire": "có"
+      },
+      "wire": "có",
+      "originalPrice": 700000,
+      "sale": 10,
+      "color": "đen",
+      "brand": "AKKO",
+      "weight": 2,
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/chuot-khong-day-monsgeek-d1-blac_099847ad9748479fbe2e919816a150f5_medium.png",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
+    },
+    {
+      "id": 48,
+      "title": "Chuột không dây MonsGeek D1 Black",
+      "type": "computer-mouse",
+      "specifications": {
+        "pin": "không",
+        "lamp": "có",
+        "wire": "có"
+      },
+      "wire": "có",
+      "originalPrice": 370000,
+      "sale": 10,
+      "color": "trắng",
+      "brand": "CM",
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/chuot-khong-day-akko-smart1-sail__3__70a4fec24bee4a52bedb17e13f8c8cbc_medium.png",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
+    },
+    {
+      "id": 49,
+      "title": "Chuột AKKO Smart 1 Sailor Moon",
+      "type": "computer-mouse",
+      "specifications": {
+        "pin": "không",
+        "lamp": "có",
+        "wire": "không"
+      },
+      "wire": "không",
+      "originalPrice": 400000,
+      "sale": 10,
+      "color": "trắng",
+      "brand": "CM",
+      "weight": 2,
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/logitech-g102-lightsync-rgb-black-1_bf4f5774229c4a0f81b8e8a2feebe4d8_aeb4ae49ee844c3e9d315883d4e482d4_medium.jpg",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
+    },
+    {
+      "id": 50,
+      "title": "Chuột Logitech G102 LightSync Black",
+      "type": "computer-mouse",
+      "specifications": {
+        "pin": "không",
+        "lamp": "không",
+        "wire": "có"
+      },
+      "wire": "có",
+      "originalPrice": 200000,
+      "sale": 5,
+      "color": "trắng",
+      "brand": "CM",
+      "weight": 2,
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/logitech-g102-lightsync-rgb-white-1_eb113ff7e83b4289812fb9bff7034b4d_581b766edc6e402e995fd81477456742_medium.jpg",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
+    },
+    {
+      "id": 51,
+      "title": "Chuột Logitech G502 Hero Gaming",
+      "type": "computer-mouse",
+      "specifications": {
+        "pin": "có",
+        "lamp": "không",
+        "wire": "có"
+      },
+      "wire": "có",
+      "originalPrice": 1200000,
+      "sale": 10,
+      "color": "trắng",
+      "brand": "CM",
+      "weight": 2,
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/white_e563efbdda644fe59e2227176c1607fd_medium.png",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
+    },
+    {
+      "id": 52,
+      "title": "Chuột Logitech G304 Wireless White",
+      "type": "computer-mouse",
+      "title": "Chuột Logitech G304 Wireless White",
+      "specifications": {
+        "pin": "có",
+        "lamp": "có",
+        "wire": "không"
+      },
+      "wire": "không",
+      "originalPrice": 800000,
+      "sale": 10,
+      "color": "trắng",
+      "brand": "CM",
+      "weight": 2,
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/h-g304-lightspeed-wireless-white-1000_e28318985b5049099c4e8381695e810f_782b9a4494994a2ea98cf9e699e35200_medium.jpg",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
+    },
+    {
+      "id": 53,
+      "title": "Chuột Logitech G304 Wireless",
+      "type": "computer-mouse",
+      "title": "Chuột Logitech G304 Wireless",
+      "specifications": {
+        "pin": "có",
+        "lamp": "có",
+        "wire": "không"
+      },
+      "wire": "không",
+      "originalPrice": 500000,
+      "sale": 10,
+      "color": "trắng",
+      "brand": "CM",
+      "weight": 2,
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/gvn_log_g304_3df28cd60a48412b8fb1d2ff762dc6a9_1f12340f2e6b4b8892163de0a06676f2_medium.png",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
+    },
+    {
+      "id": 54,
+      "title": "Chuột Razer Basilisk V3",
+      "type": "computer-mouse",
+      "specifications": {
+        "pin": "có",
+        "lamp": "có",
+        "wire": "có"
+      },
+      "wire": "có",
+      "originalPrice": 150000,
+      "sale": 20,
+      "color": "đen",
+      "brand": "CM",
+      "weight": 2,
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/rtehosjd_7cf8331e76c04cb59e02a8f763ae3bb8_medium.png",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
+    },
+    {
+      "id": 55,
+      "title": "Chuột Razer DeathAdder Essential ",
+      "type": "computer-mouse",
+      "specifications": {
+        "pin": "có",
+        "lamp": "có",
+        "wire": "không"
+      },
+      "wire": "không",
+      "originalPrice": 800000,
+      "sale": 6,
+      "color": "trắng",
+      "brand": "CM",
+      "weight": 2,
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/thumbchuot_7445abea69bf461e881eeba2b6cbbd8d_medium.jpg",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
+    },
+    {
+      "id": 56,
+      "title": "Chuột Razer Deathadder Essential White",
+      "type": "computer-mouse",
+      "specifications": {
+        "pin": "không",
+        "lamp": "có",
+        "wire": "có"
+      },
+      "wire": "có",
+      "originalPrice": 900000,
+      "sale": 10,
+      "color": "trắng",
+      "brand": "CM",
+      "weight": 2,
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/565656_22914bb589c146e599cb381f2c75b557_e6b08a36816248339bcf29ca71560fcb_medium.png",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
+    },
+    {
+      "id": 57,
+      "title": "Chuột Logitech G Pro 2 Lightspeed Wireless White",
+      "type": "computer-mouse",
+      "title": "Chuột Logitech G Pro 2 Lightspeed Wireless White",
+      "specifications": {
+        "pin": "có",
+        "lamp": "không",
+        "wire": "có"
+      },
+      "wire": "có",
+      "originalPrice": 450000,
+      "sale": 10,
+      "color": "trắng",
+      "brand": "CM",
+      "weight": 2,
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/5277-vt760-mini-pink-1_6cbfa95e694e446b926f6a05859e19d9_medium.jpg",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
+    },
+    {
+      "id": 58,
+      "title": "Chuột Logitech G309 Lightspeed Wireless",
+      "type": "computer-mouse",
+      "title": "Chuột Logitech G309 Lightspeed Wireless",
+      "specifications": {
+        "pin": "có",
+        "lamp": "không",
+        "wire": "có"
+      },
+      "wire": "có",
+      "originalPrice": 5000000,
+      "sale": 6,
+      "color": "trắng",
+      "brand": "CM",
+      "weight": 2,
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/black_b406079deeae46858542c5af8f18771b_medium.png",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
+    },
+    {
+      "id": 59,
+      "title": "Chuột Logitech G309 Lightspeed ",
+      "type": "computer-mouse",
+      "specifications": {
+        "pin": "có",
+        "lamp": "không",
+        "wire": "có"
+      },
+      "wire": "có",
+      "originalPrice": 2000000,
+      "sale": 5,
+      "color": "trắng",
+      "brand": "CM",
+      "weight": 2,
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/white_e563efbdda644fe59e2227176c1607fd_medium.png",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
+    },
+    {
+      "id": 60,
+      "title": "Chuột Rapoo MT760 Mini Không Dây Hồng",
+      "type": "computer-mouse",
+      "specifications": {
+        "pin": "có",
+        "lamp": "không",
+        "wire": "có"
+      },
+      "wire": "có",
+      "originalPrice": 3000000,
+      "sale": 6,
+      "color": "trắng",
+      "brand": "CM",
+      "weight": 2,
+      "dimensions": {
+        "width": 226.49,
+        "height": 325.5,
+        "depth": 16.6
+      },
+      "service": ["Bảo hành chính hãng 2 tháng."],
+      "image": "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_medium.png",
+      "imgDetail": [
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-2-imag_e99742e2e214462fa60cc248005eae9a_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm-712-wwoh1_25f8ba148aac46b3b004b817ec306d10_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-5-imag_2ee0745cbd224695b693c55ca1a9edff_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-4-imag_0fbc2368bd8a4adba646ae980abcfe69_compact.png",
+        "https://product.hstatic.net/200000722513/product/25938-mm712-white-gallery-3-imag_c4951fb248004bd7ba0758573146f6ce_compact.png"
+      ],
+      "promotion": ["Giảm ngay 10.000vnd khi mua thêm tai nghe LG tại GEARVN"]
     }
   ]
 }
